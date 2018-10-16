@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.14)  16 OCT 2018 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.14)  16 OCT 2018 20:33
 entering extended mode
 **./SLOT.tex
 (SLOT.tex
@@ -2788,9 +2788,20 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 17.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 17.
 
 (CONTENT/titlepage.tex
-<IMAGE/luh_logo.png, id=127, 1134.03674pt x 327.02174pt>
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 20.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 20.
+ [0
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<IMAGE/luh_logo.png, id=137, 1134.03674pt x 327.02174pt>
 File: IMAGE/luh_logo.png Graphic file (type png)
 
 <use IMAGE/luh_logo.png>
@@ -2800,13 +2811,11 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 20.
- [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./IMAGE/luh_logo.png>])
+ [1 <./IMAGE/luh_logo.png>])
 Package tocbasic Info: character protrusion at toc deactivated on input line 28
 .
  (SLOT.toc
-Overfull \hbox (7.45425pt too wide) in paragraph at lines 31--31
+Overfull \hbox (7.45425pt too wide) in paragraph at lines 32--32
  [][] [][][]\OT1/cmr/m/n/12 (-20) Temperaturabh[]angigkeit der Hall-span-nung v
 on p- und n-dotiertem 
  []
@@ -2916,7 +2925,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 148.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 148.
-<IMAGE/M2_Stromvergleich.pdf, id=205, 361.35pt x 236.885pt>
+<IMAGE/M2_Stromvergleich.pdf, id=215, 361.35pt x 236.885pt>
 File: IMAGE/M2_Stromvergleich.pdf Graphic file (type pdf)
 
 <use IMAGE/M2_Stromvergleich.pdf>
@@ -2935,7 +2944,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-<IMAGE/M1_2mA.pdf, id=215, 361.35pt x 216.81pt>
+<IMAGE/M1_2mA.pdf, id=224, 361.35pt x 216.81pt>
 File: IMAGE/M1_2mA.pdf Graphic file (type pdf)
  <use IMAGE/M1_2mA.pdf>
 Package pdftex.def Info: IMAGE/M1_2mA.pdf used on input line 160.
@@ -2954,7 +2963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
  []
 
-<IMAGE/M1_3mA.pdf, id=247, 361.35pt x 216.81pt>
+<IMAGE/M1_3mA.pdf, id=256, 361.35pt x 216.81pt>
 File: IMAGE/M1_3mA.pdf Graphic file (type pdf)
  <use IMAGE/M1_3mA.pdf>
 Package pdftex.def Info: IMAGE/M1_3mA.pdf used on input line 170.
@@ -3016,7 +3025,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 226.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 226.
-<IMAGE/M2_all.pdf, id=311, 361.35pt x 236.885pt>
+<IMAGE/M2_all.pdf, id=320, 361.35pt x 236.885pt>
 File: IMAGE/M2_all.pdf Graphic file (type pdf)
  <use IMAGE/M2_all.pdf>
 Package pdftex.def Info: IMAGE/M2_all.pdf used on input line 229.
@@ -3035,7 +3044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--238
 
  []
 
-<IMAGE/M2_npVergleich.pdf, id=318, 361.35pt x 235.88126pt>
+<IMAGE/M2_npVergleich.pdf, id=327, 361.35pt x 235.88126pt>
 File: IMAGE/M2_npVergleich.pdf Graphic file (type pdf)
 
 <use IMAGE/M2_npVergleich.pdf>
@@ -3084,7 +3093,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 276.
-<IMAGE/M31_Fit.pdf, id=383, 361.35pt x 209.78375pt>
+<IMAGE/M31_Fit.pdf, id=392, 361.35pt x 209.78375pt>
 File: IMAGE/M31_Fit.pdf Graphic file (type pdf)
  <use IMAGE/M31_Fit.pdf>
 Package pdftex.def Info: IMAGE/M31_Fit.pdf used on input line 279.
@@ -3144,7 +3153,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 327.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 327.
-<IMAGE/M32_Fit.pdf, id=409, 361.35pt x 206.7725pt>
+<IMAGE/M32_Fit.pdf, id=418, 361.35pt x 206.7725pt>
 File: IMAGE/M32_Fit.pdf Graphic file (type pdf)
  <use IMAGE/M32_Fit.pdf>
 Package pdftex.def Info: IMAGE/M32_Fit.pdf used on input line 330.
@@ -3219,7 +3228,7 @@ Overfull \hbox (34.05182pt too wide) in paragraph at lines 370--381
  [][] 
  []
 
-<IMAGE/M33_n_GleichgewichtVsAbkuel.pdf, id=440, 361.35pt x 220.825pt>
+<IMAGE/M33_n_GleichgewichtVsAbkuel.pdf, id=449, 361.35pt x 220.825pt>
 File: IMAGE/M33_n_GleichgewichtVsAbkuel.pdf Graphic file (type pdf)
 
 <use IMAGE/M33_n_GleichgewichtVsAbkuel.pdf>
@@ -3268,7 +3277,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 428.
  [18 <./IMAGE/M33_n_GleichgewichtVsAbkuel.pdf>]
-<IMAGE/M33_p_GleichgewichtVsAbkuel.pdf, id=472, 361.35pt x 220.825pt>
+<IMAGE/M33_p_GleichgewichtVsAbkuel.pdf, id=482, 361.35pt x 220.825pt>
 File: IMAGE/M33_p_GleichgewichtVsAbkuel.pdf Graphic file (type pdf)
 
 <use IMAGE/M33_p_GleichgewichtVsAbkuel.pdf>
@@ -3302,14 +3311,14 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 445.
  [19 <./IMAGE/M33_p_GleichgewichtVsAbkuel.pdf>]
-<IMAGE/M33_np_Abkuehl.pdf, id=503, 361.35pt x 220.825pt>
+<IMAGE/M33_np_Abkuehl.pdf, id=512, 361.35pt x 220.825pt>
 File: IMAGE/M33_np_Abkuehl.pdf Graphic file (type pdf)
 
 <use IMAGE/M33_np_Abkuehl.pdf>
 Package pdftex.def Info: IMAGE/M33_np_Abkuehl.pdf used on input line 448.
 (pdftex.def)             Requested size: 391.09348pt x 239.00296pt.
 
-<IMAGE/M33_np.pdf, id=504, 361.35pt x 220.825pt>
+<IMAGE/M33_np.pdf, id=513, 361.35pt x 220.825pt>
 File: IMAGE/M33_np.pdf Graphic file (type pdf)
  <use IMAGE/M33_np.pdf>
 Package pdftex.def Info: IMAGE/M33_np.pdf used on input line 455.
@@ -3332,7 +3341,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 462.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 462.
-<IMAGE/M33_p_gleichgewicht_zoom.pdf, id=530, 361.35pt x 216.81pt>
+<IMAGE/M33_p_gleichgewicht_zoom.pdf, id=539, 361.35pt x 216.81pt>
 File: IMAGE/M33_p_gleichgewicht_zoom.pdf Graphic file (type pdf)
 
 <use IMAGE/M33_p_gleichgewicht_zoom.pdf>
@@ -3434,14 +3443,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `SLOT.out' has not changed.
-(rerunfilecheck)             Checksum: 49B5542CDFC458B351EB63FD87ACEB43;2359.
+(rerunfilecheck)             Checksum: 13028712F5D530E08BB3C68C12DBCBDF;2417.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 26283 strings out of 493323
- 490487 string characters out of 3139065
+ 26286 strings out of 493323
+ 490515 string characters out of 3139065
  675823 words of memory out of 3000000
- 29305 multiletter control sequences out of 15000+200000
+ 29306 multiletter control sequences out of 15000+200000
  550410 words of font info for 131 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,15n,65p,10402b,1083s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3460,9 +3469,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SLOT.pdf (24 pages, 668304 bytes).
+Output written on SLOT.pdf (25 pages, 669650 bytes).
 PDF statistics:
- 720 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
- 25914 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 25922 words of extra memory for PDF output out of 29859 (max. 10000000)
 
