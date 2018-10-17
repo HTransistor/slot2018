@@ -1,8 +1,11 @@
-\setcounter{page}{1}
-\newpage
+%!TeX encoding=utf8
+\input{preamble.tex}
+\begin{document}
+\input{titlepage.tex}
+
 \section{Aufgaben}
 \subsection{Besetzungswahrscheinlichkeit Germanium}
-Für Germanium ist die Größe der Bandlücke mit \(E_G=0,67\unit{eV}\) angegeben. Die Boltzmann-Konstante im Gaußschen Einheitensystem mit \(k_b=8,617\cdot 10^{-5}\unit{\frac{eV}{K}}\) ist ebenfalls bekannt. 
+Für Germanium ist die Größe der Bandlücke mit \(E_G=0,67\si{eV}\) angegeben. Die Boltzmann-Konstante im Gaußschen Einheitensystem mit \(k_b=8,617\cdot 10^{-5}\si{\frac{eV}{K}}\) ist ebenfalls bekannt. 
 \begin{align*}
 W(T) = \exp(-\frac{E_G}{2 k_B T})
 \end{align*}
@@ -20,15 +23,15 @@ Besetzungswahrscheinlichkeit \(W(T)\) &  \(3,614\cdot 10^{-9}\) & \(2,355\cdot 1
 Mit großer Wahrscheinlichkeit ist das Leitungsband bei diesen Temperaturen also noch weitestgehend unbesetzt. Das bedeutet, dass Germanium bei diesen Temperaturen eine sehr geringe Leitfähigkeit besitzt, da kaum bewegliche Elektronen für den Ladungstransport zur Verfügung stehen.
 
 \subsection{Beweglichkeiten}
-In der hier durchgeführten Rechnung wird der bereits in Aufg. 1 errechnete Wert der Besetzungswahrscheinlichkeit für \(T=300\unit{K}\)übernommen. Zudem sei \(n_i(T_0=300\unit{K})=2,3\cdot 10^{6}\unit{m^{-3}}\) und \(\sigma_0(T_0=300\unit{K})=2,14\unit{A\cdot(Vm)^{-1}}\) bekannt. Gleichung (3):
+In der hier durchgeführten Rechnung wird der bereits in Aufg. 1 errechnete Wert der Besetzungswahrscheinlichkeit für \(T=300\si{K}\)übernommen. Zudem sei \(n_i(T_0=300\si{K})=2,3\cdot 10^{6}\si{m^{-3}}\) und \(\sigma_0(T_0=300\si{K})=2,14\si{A\cdot(Vm)^{-1}}\) bekannt. Gleichung (3):
 \begin{align*}
 e\cdot n_i (\mu_n+\mu_p)\approx & \sigma \cdot \exp(-\frac{E_G}{2 k_B T}) \\
-\Leftrightarrow \mu_n+\mu_p \approx & \frac{2,14\unit{\frac{A}{V m}}}{2,3\cdot 10^{13}\unit{cm^{-3}}1,602\cdot10^{-19}\unit{C}} = 5807 \unit{\frac{cm^2}{V s}}
+\Leftrightarrow \mu_n+\mu_p \approx & \frac{2,14\si{\frac{A}{V m}}}{2,3\cdot 10^{13}\si{cm^{-3}}1,602\cdot10^{-19}\si{C}} = 5807 \si{\frac{cm^2}{V s}}
 \end{align*}
 Mit einem Verhältnis der Beweglichkeiten von Löchern und Elektronen von \(\mu_n \approx 2,05 \mu_p\) ergeben sich hier:
 \begin{align*}
-\mu_p\approx & 1903 \unit{\frac{cm^2}{V s}} \\
-\mu_n\approx & 3903 \unit{\frac{cm^2}{V s}}
+\mu_p\approx & 1903 \si{\frac{cm^2}{V s}} \\
+\mu_n\approx & 3903 \si{\frac{cm^2}{V s}}
 \end{align*}
 
 \subsection{Extrinsische Leitfähigkeit}
@@ -263,8 +266,9 @@ Bei $T=299.0K$ wurde für das n-dotierte Germanium $R_{H}\frac{B}{d}=(0.65962 \p
 
 \listoffigures
 \listoftables
+
 \begin{thebibliography}{99}
-%\begin{comment}
 	\bibitem{Schaltung1} \textsc{Saure aus Wikimedia Commons}, \emph{Gleichrichter-Schaltung mit Glättung} (26. August 2009) (Stand: 08.03.2018) \url{https://commons.wikimedia.org/w/index.php?title=File:Gleichrichter-Schaltung.svg&oldid=291347227&uselang=de}
-%\end{comment}
 \end{thebibliography}
+
+\end{document}

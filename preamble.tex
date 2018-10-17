@@ -1,3 +1,13 @@
+\documentclass[ngerman]{scrartcl} 
+
+\newcommand{\authA}{Felix Springer}
+\newcommand{\matA}{10002537}
+\newcommand{\authB}{Daniel Scheiermann}
+\newcommand{\matB}{3227680}
+\newcommand{\grpnr}{SLOT}
+\newcommand{\Versuchsnummer}{(IQ 18)}
+\newcommand{\Versuchsname}{Scanning Laser Optical Tomography SLOT}
+
 %---configure pagelayout
 \KOMAoptions{ % read documentation for KOMAScript providing the documentclass scrartcl
 DIV=11,
@@ -9,21 +19,17 @@ twoside=false,
 titlepage=true
 }
 
-\usepackage[ %Set linespacing
-singlespacing %onehalfspacing,doublespacing
-]{setspace} 
+%\usepackage[ %Set linespacing
+%singlespacing %onehalfspacing,doublespacing
+%]{setspace} 
 
-\usepackage[headsepline,footsepline,automark,komastyle,nouppercase]{scrpage2} %Configure headline and footer
+\usepackage[headsepline,footsepline,automark,pagestyleset=KOMA-Script,markcase=ignoreuppercase]{scrlayer-scrpage} %Configure headline and footer
 
 \clearscrheadings
 \setlength{\headheight}{3.5\baselineskip}
 
 \ihead[]{\authA~(\matA)\\\authB~(\matB)}
-\ohead{\includegraphics[height=13pt]{IMAGE/luh_logo.png}\\ Gruppe:~\grpnr}
-
-%\ihead[]{\authA~(\matA)$,$ \authB~(\matB)}
-%\ohead{Gruppe:~\grpnr}
-
+\ohead{\includegraphics[height=13pt]{IMAGE/luh_logo.png} \\ \grpnr}
 
 \cfoot{\vspace{-0.75cm}\pagemark}
 \pagestyle{scrheadings}
@@ -40,42 +46,40 @@ singlespacing %onehalfspacing,doublespacing
 %---Language and umlauts
 \usepackage[utf8]{inputenc} %Set UTF-8 encoding, enables ä,ö,ü etc.
 \usepackage[ngerman]{babel} %Set document language to ngerman (new german)  
-\usepackage[% improved hyphenation
-expansion=true,
-protrusion=true
-]{microtype}
+%\usepackage[% improved hyphenation
+%expansion=true,
+%protrusion=true
+%]{microtype}
 
 %---Mathmatics (AMS packages )
 \usepackage{amsmath} %generell math enviorments e.g. align
 \usepackage{amsfonts}
 \usepackage{amssymb} 
-\usepackage{amsthm} %math theorems
-\usepackage{upgreek}%provide special form of greek letters e.g. \upmu
+%\usepackage{amsthm} %math theorems
+%\usepackage{upgreek}%provide special form of greek letters e.g. \upmu
 \usepackage{float}
 %---Units
 \usepackage[decimalsymbol=comma]{siunitx}
-\usepackage{units}
-\usepackage[numbers]{natbib}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{pdfpages}
+%\usepackage{units}
+%\usepackage[numbers]{natbib}
+%\usepackage{pdfpages}
 \usepackage{textcomp}
 \usepackage{longtable}
-\usepackage{braket}
-\usepackage{color}
+%\usepackage{braket}
+%\usepackage{color}
 
-\renewcommand{\arraystretch}{1.2} % Standard-Zeilenhöhe einstellen
+%\renewcommand{\arraystretch}{1.2} % Standard-Zeilenhöhe einstellen
 
 %---tables and imgaes
 \usepackage{graphicx} %provide \includegraphics[options]{name}
-\usepackage{epstopdf} %enable the use of eps-graphics
+%\usepackage{epstopdf} %enable the use of eps-graphics
 \usepackage[hypcap]{caption} %captions out of floating-enviorments(figure,table)
 \usepackage{booktabs} %extra lines in tabulars
-\usepackage{flafter} %Place floating-enviorments after references.
-\usepackage[ %
-section %latest ancor for floating-enviorments
-]{placeins}
-\usepackage{verbatim} %long comments \begin{comment} ...\end{comment}
+%\usepackage{flafter} %Place floating-enviorments after references.
+%\usepackage[ %
+%section %latest ancor for floating-enviorments
+%]{placeins}
+%\usepackage{verbatim} %long comments \begin{comment} ...\end{comment}
 
 %---Hyperlinks
 \usepackage{hyperref} %create table of content and references as links
