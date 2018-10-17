@@ -1,0 +1,7 @@
+\babel@toc {ngerman}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Vergleich des undotierten Germaniums bei \IeC {\"A}nderung des Probestromes $I_{Probe}$\relax }}{5}{figure.caption.17}
+\contentsline {figure}{\numberline {2}{\ignorespaces Linearer Fit mit Gewichtung $\frac {1}{(a*x_{error})^2+(y_{error})^2}$ f\IeC {\"u}r $I_{Probe}=2mA$: $f(x)=(-1.1948 \pm 0.0065)\times 10^{-19}x + Ln((4.33 \pm 0.28)\times 10^{6})$\relax }}{6}{figure.caption.18}
+\contentsline {figure}{\numberline {3}{\ignorespaces Linearer Fit mit Gewichtung f\IeC {\"u}r $I_{Probe}=3mA$: $f(x)=(-1.1961 \pm 0.0076)\times 10^{-19}x + Ln((4.45 \pm 0.33)\times 10^{6})$\relax }}{7}{figure.caption.19}
+\contentsline {figure}{\numberline {4}{\ignorespaces Vergleich der Leitf\IeC {\"a}higkeit in Abh\IeC {\"a}ngigkeit zur Temperatur von n-,p- und undotiertem Germanium\relax }}{9}{figure.caption.27}
+\contentsline {figure}{\numberline {5}{\ignorespaces Vergleich der Leitf\IeC {\"a}higkeit in Abh\IeC {\"a}ngigkeit zur Temperatur von n- und p-dotiertem Germanium\relax }}{10}{figure.caption.28}
+\contentsline {figure}{\numberline {6}{\ignorespaces Linearer Fit mit Gewichtung $\frac {1}{(a_{i}*x_{error})^2+(y_{error})^2}$ p-dotiert bei $T=300.0K$ und n-dotiert bei $T=299.0K$: $f_{p}(x)=(0.71085 \pm 0.00073)x + (-0.000027 \pm 0.000012)$ $f_{n}(x)=(0.65962 \pm 0.00087)x + (-0.000016 \pm 0.000014)$\relax }}{11}{figure.caption.35}
