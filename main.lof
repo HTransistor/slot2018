@@ -1,4 +1,4 @@
-\babel@toc {ngerman}{}
+\select@language {ngerman}
 \contentsline {figure}{\numberline {1}{\ignorespaces Vergleich des undotierten Germaniums bei \IeC {\"A}nderung des Probestromes $I_{Probe}$\relax }}{5}{figure.caption.17}
 \contentsline {figure}{\numberline {2}{\ignorespaces Linearer Fit mit Gewichtung $\frac {1}{(a*x_{error})^2+(y_{error})^2}$ f\IeC {\"u}r $I_{Probe}=2mA$: $f(x)=(-1.1948 \pm 0.0065)\times 10^{-19}x + Ln((4.33 \pm 0.28)\times 10^{6})$\relax }}{6}{figure.caption.18}
 \contentsline {figure}{\numberline {3}{\ignorespaces Linearer Fit mit Gewichtung f\IeC {\"u}r $I_{Probe}=3mA$: $f(x)=(-1.1961 \pm 0.0076)\times 10^{-19}x + Ln((4.45 \pm 0.33)\times 10^{6})$\relax }}{7}{figure.caption.19}
