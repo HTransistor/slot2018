@@ -5,9 +5,34 @@
 \newcommand{\authB}{Felix Springer}
 \newcommand{\matB}{10002537}
 \newcommand{\grpnr}{SLOT}
-\newcommand{\Versuchsnummer}{(IQ 18)}
-\newcommand{\Versuchsname}{Scanning Laser Optical Tomography SLOT}
+\newcommand{\Versuchsnummer}{IQ18}
+\newcommand{\Versuchsname}{Scanning Laser Optical Tomography}
 
+
+%%%%%%%%%%%%%%%%%%Capitalized Color - start%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xparse}
+\usepackage{xcolor}
+
+
+\ExplSyntaxOn
+\NewDocumentCommand{\colorcap}{ O{blue} m }
+ {
+  \sheljohn_colorcap:nn { #1 } { #2 }
+ }
+
+\tl_new:N \l__sheljohn_colorcap_input_tl
+\cs_new_protected:Npn \sheljohn_colorcap:nn #1 #2
+ {
+  % store the string in a variable for usage with \regex_replace_all:nnN
+  \tl_set:Nn \l__sheljohn_colorcap_input_tl { #2 }
+  \regex_replace_all:nnN
+   { ([A-Z]+) } % search a capital letter (or more)
+   { \c{textcolor}\cB\{#1\cE\}\cB\{\1\cE\} } % replace the match with \textcolor{#1}{<match>}
+   \l__sheljohn_colorcap_input_tl
+  \tl_use:N \l__sheljohn_colorcap_input_tl
+ }
+\ExplSyntaxOff
+%%%%%%%%%%%%%%%%%%Capitalized Color - end%%%%%%%%%%%%%%%%%%%%%%%%
 %---configure pagelayout
 \KOMAoptions{ % read documentation for KOMAScript providing the documentclass scrartcl
 DIV=11,
@@ -29,7 +54,7 @@ titlepage=true
 \setlength{\headheight}{3.5\baselineskip}
 
 \ihead[]{\authB~(\matB)\\\authA~(\matA)}
-\ohead{\includegraphics[height=13pt]{IMAGE/luh_logo.png} \\ \grpnr}
+\ohead{\includegraphics[height=13pt]{IMAGE/luh_logo.png} \\ \Versuchsnummer $ $ \grpnr}
 
 \cfoot{\vspace{-0.75cm}\pagemark}
 \pagestyle{scrheadings}
