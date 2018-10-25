@@ -1,0 +1,133 @@
+slot_engine$1
+{
+Detectors(photo_diode)=ni_detector$1
+	{
+	detector settings=detector_data$1
+		{
+		sample rate=107527
+		samples=216810
+		detector name=photo_diode
+		amplification unit=
+		amplification=0
+		}
+	}
+Detectors(bottom_PMT)=ni_detector$1
+	{
+	detector settings=detector_data$1
+		{
+		sample rate=107527
+		samples=216810
+		detector name=bottom_PMT
+		amplification unit=Volt
+		amplification=0
+		}
+	}
+Laser controller=com_ld_control$1
+	{
+	current emitter id=2
+	current wavelength in nm=520
+	power status=true
+	}
+Scan system=cti ni scanner$1
+	{
+	scan information=xy scanner data$1
+		{
+		number of lines=430
+		time per frame=2.0115
+		expected sample rate of detectors=107527
+		normed left position=-0.098
+		normed bottom position=-0.522
+		normed right position=0.083
+		normed top position=-0.365616
+		normed end position left=-0.098
+		normed end position top=-0.522
+		scan width amplitude  for norm position=4.9
+		scan height amplitude for norm position=4.9
+		maximum scan width amplitude=5.5
+		maximum scan height amplitude=5.5
+		optical angle in degrees per scan unit=3.14159
+		scanning unit for positions=Volt
+		}
+	}
+Scan process=image scan$1
+	{
+	current image settings=image scan data$1
+		{
+		x resolution=500
+		y resolution=430
+		normalized ranges=[ l: -0.098; r: 0.083; t: -0.522; b: -0.365616 ]
+		time per frame=2
+		real time per frame=1.9995
+		ideal time per scan=2.0077
+		sample rate=107527
+		}
+	image settings at start of scan=image scan data$1
+		{
+		x resolution=500
+		y resolution=430
+		normalized ranges=[ l: -0.098; r: 0.083; t: -0.522; b: -0.365616 ]
+		time per frame=2
+		real time per frame=1.9995
+		ideal time per scan=2.0077
+		sample rate=107527
+		}
+	}
+Rotation Stage=Stage$1
+	{
+	Name=Rotation Stage (Orientalmotor)
+	Position=0
+	Position Unit=deg
+	Velocity=0
+	Velocity Unit=deg/s
+	}
+Focussing Lens=lens data$1
+	{
+	angle (deg) to displacement (µm) constant=1000
+	angle (deg) to displacement (µm) linear=1
+	angle (deg) to displacement (µm) square=1
+	angle (deg) to displacement (µm) qubic=1
+	}
+Project Information=slot_project$1
+	{
+	Username=FP-SLOT
+	Project=luhslot
+	Sample Name=2
+	Sample ID=1-520-2-n-h
+	Root Folder=C:/Users/FP-SLOT
+	}
+Manual System Parameters=measurement_setup$1
+	{
+	Emission Filter=none
+	Beam Diameter=2
+	Medium(cuvette)=none
+	Medium(capillary)=none
+	Comments=none
+	}
+Capture Parameters=slot_project$1
+	{
+	Delay time=0
+	Start Angle=0
+	Start Angle Set=true
+	End Angle=0
+	End Angle Set=true
+	Projection Count=0
+	Projection Count Set=true
+	Output File Format (0-tiff, 1-raw)=0
+	Output File Format Set=true
+	}
+}
+Tomogram$1
+{
+Detector ID=bottom_PMT
+Start angle=0
+End angle=0
+Projection Count=0
+Project=slot_project$1
+	{
+	Username=FP-SLOT
+	Project=luhslot
+	Sample Name=2
+	Sample ID=1-520-2-n-h
+	Root Folder=C:/Users/FP-SLOT
+	}
+}
