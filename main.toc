@@ -1,19 +1,20 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Aufgaben}{2}{section.2}
-\contentsline {subsection}{\numberline {1.1}Besetzungswahrscheinlichkeit Germanium}{2}{subsection.3}
-\contentsline {subsection}{\numberline {1.2}Beweglichkeiten}{2}{subsection.5}
-\contentsline {subsection}{\numberline {1.3}Extrinsische Leitf\IeC {\"a}higkeit}{3}{subsection.6}
-\contentsline {section}{\numberline {2}Experimente}{4}{section.10}
-\contentsline {subsection}{\numberline {2.1}M1}{4}{subsection.11}
-\contentsline {subsubsection}{\numberline {2.1.1}Messwerte}{4}{subsubsection.12}
-\contentsline {subsubsection}{\numberline {2.1.2}Fehlergrenzen}{4}{subsubsection.15}
-\contentsline {subsubsection}{\numberline {2.1.3}Auswertung}{5}{subsubsection.16}
-\contentsline {subsubsection}{\numberline {2.1.4}Vergleich}{7}{subsubsection.20}
-\contentsline {subsection}{\numberline {2.2}M2}{8}{subsection.21}
-\contentsline {subsubsection}{\numberline {2.2.1}Messwerte}{8}{subsubsection.22}
-\contentsline {subsubsection}{\numberline {2.2.2}Fehlergrenzen}{8}{subsubsection.25}
-\contentsline {subsubsection}{\numberline {2.2.3}Auswertung}{9}{subsubsection.26}
-\contentsline {subsection}{\numberline {2.3}M3.1}{10}{subsection.29}
-\contentsline {subsubsection}{\numberline {2.3.1}Messwerte}{10}{subsubsection.30}
-\contentsline {subsubsection}{\numberline {2.3.2}Fehlergrenzen}{11}{subsubsection.33}
-\contentsline {subsubsection}{\numberline {2.3.3}Auswertung}{11}{subsubsection.34}
+\contentsline {section}{\numberline {1}SLOT - Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{2}{section.2}
+\contentsline {section}{\numberline {2}Aufgaben}{4}{section.8}
+\contentsline {subsection}{\numberline {2.1}Besetzungswahrscheinlichkeit Germanium}{4}{subsection.9}
+\contentsline {subsection}{\numberline {2.2}Beweglichkeiten}{5}{subsection.11}
+\contentsline {subsection}{\numberline {2.3}Extrinsische Leitf\IeC {\"a}higkeit}{5}{subsection.12}
+\contentsline {section}{\numberline {3}Experimente}{6}{section.16}
+\contentsline {subsection}{\numberline {3.1}M1}{6}{subsection.17}
+\contentsline {subsubsection}{\numberline {3.1.1}Messwerte}{6}{subsubsection.18}
+\contentsline {subsubsection}{\numberline {3.1.2}Fehlergrenzen}{7}{subsubsection.21}
+\contentsline {subsubsection}{\numberline {3.1.3}Auswertung}{8}{subsubsection.22}
+\contentsline {subsubsection}{\numberline {3.1.4}Vergleich}{10}{subsubsection.26}
+\contentsline {subsection}{\numberline {3.2}M2}{11}{subsection.27}
+\contentsline {subsubsection}{\numberline {3.2.1}Messwerte}{11}{subsubsection.28}
+\contentsline {subsubsection}{\numberline {3.2.2}Fehlergrenzen}{11}{subsubsection.31}
+\contentsline {subsubsection}{\numberline {3.2.3}Auswertung}{12}{subsubsection.32}
+\contentsline {subsection}{\numberline {3.3}M3.1}{13}{subsection.35}
+\contentsline {subsubsection}{\numberline {3.3.1}Messwerte}{13}{subsubsection.36}
+\contentsline {subsubsection}{\numberline {3.3.2}Fehlergrenzen}{14}{subsubsection.39}
+\contentsline {subsubsection}{\numberline {3.3.3}Auswertung}{14}{subsubsection.40}
