@@ -1,12 +1,12 @@
 \select@language {ngerman}
-\contentsline {figure}{\numberline {1}{\ignorespaces Plot 1\relax }}{2}{figure.caption.3}
-\contentsline {figure}{\numberline {2}{\ignorespaces Plot 2\relax }}{2}{figure.caption.4}
-\contentsline {figure}{\numberline {3}{\ignorespaces Plot 2.1\relax }}{3}{figure.caption.5}
-\contentsline {figure}{\numberline {4}{\ignorespaces Plot 2 horizontal: Innere Aufnahme (Gruppe 4,5,6)\relax }}{3}{figure.caption.6}
-\contentsline {figure}{\numberline {5}{\ignorespaces Plot 2 vertikal: Innere Aufnahme (Gruppe 4,5,6)\relax }}{4}{figure.caption.7}
-\contentsline {figure}{\numberline {6}{\ignorespaces Vergleich des undotierten Germaniums bei \IeC {\"A}nderung des Probestromes $I_{Probe}$\relax }}{8}{figure.caption.23}
-\contentsline {figure}{\numberline {7}{\ignorespaces Linearer Fit mit Gewichtung $\frac {1}{(a*x_{error})^2+(y_{error})^2}$ f\IeC {\"u}r $I_{Probe}=2mA$: $f(x)=(-1.1948 \pm 0.0065)\times 10^{-19}x + Ln((4.33 \pm 0.28)\times 10^{6})$\relax }}{9}{figure.caption.24}
-\contentsline {figure}{\numberline {8}{\ignorespaces Linearer Fit mit Gewichtung f\IeC {\"u}r $I_{Probe}=3mA$: $f(x)=(-1.1961 \pm 0.0076)\times 10^{-19}x + Ln((4.45 \pm 0.33)\times 10^{6})$\relax }}{10}{figure.caption.25}
-\contentsline {figure}{\numberline {9}{\ignorespaces Vergleich der Leitf\IeC {\"a}higkeit in Abh\IeC {\"a}ngigkeit zur Temperatur von n-,p- und undotiertem Germanium\relax }}{12}{figure.caption.33}
-\contentsline {figure}{\numberline {10}{\ignorespaces Vergleich der Leitf\IeC {\"a}higkeit in Abh\IeC {\"a}ngigkeit zur Temperatur von n- und p-dotiertem Germanium\relax }}{13}{figure.caption.34}
-\contentsline {figure}{\numberline {11}{\ignorespaces Linearer Fit mit Gewichtung $\frac {1}{(a_{i}*x_{error})^2+(y_{error})^2}$ p-dotiert bei $T=300.0K$ und n-dotiert bei $T=299.0K$: $f_{p}(x)=(0.71085 \pm 0.00073)x + (-0.000027 \pm 0.000012)$ $f_{n}(x)=(0.65962 \pm 0.00087)x + (-0.000016 \pm 0.000014)$\relax }}{14}{figure.caption.41}
+\contentsline {figure}{\numberline {1}{\ignorespaces Kontrast bei geringer Aufl\IeC {\"o}sung (horizontal)\relax }}{3}{figure.caption.3}
+\contentsline {figure}{\numberline {2}{\ignorespaces Kontrast bei geringer Aufl\IeC {\"o}sung (vertikal)\relax }}{3}{figure.caption.4}
+\contentsline {figure}{\numberline {3}{\ignorespaces Kontrast bei hoher Aufl\IeC {\"o}sung (horizontal)\relax }}{4}{figure.caption.5}
+\contentsline {figure}{\numberline {4}{\ignorespaces Kontrast bei hoher Aufl\IeC {\"o}sung (vertikal)\relax }}{4}{figure.caption.6}
+\contentsline {figure}{\numberline {5}{\ignorespaces Kontrast bei hoher Aufl\IeC {\"o}sung (horizontal \& vertikal)\relax }}{5}{figure.caption.7}
+\contentsline {figure}{\numberline {6}{\ignorespaces Vergleich des undotierten Germaniums bei \IeC {\"A}nderung des Probestromes $I_{Probe}$\relax }}{9}{figure.caption.23}
+\contentsline {figure}{\numberline {7}{\ignorespaces Linearer Fit mit Gewichtung $\frac {1}{(a*x_{error})^2+(y_{error})^2}$ f\IeC {\"u}r $I_{Probe}=2mA$: $f(x)=(-1.1948 \pm 0.0065)\times 10^{-19}x + Ln((4.33 \pm 0.28)\times 10^{6})$\relax }}{10}{figure.caption.24}
+\contentsline {figure}{\numberline {8}{\ignorespaces Linearer Fit mit Gewichtung f\IeC {\"u}r $I_{Probe}=3mA$: $f(x)=(-1.1961 \pm 0.0076)\times 10^{-19}x + Ln((4.45 \pm 0.33)\times 10^{6})$\relax }}{11}{figure.caption.25}
+\contentsline {figure}{\numberline {9}{\ignorespaces Vergleich der Leitf\IeC {\"a}higkeit in Abh\IeC {\"a}ngigkeit zur Temperatur von n-,p- und undotiertem Germanium\relax }}{13}{figure.caption.33}
+\contentsline {figure}{\numberline {10}{\ignorespaces Vergleich der Leitf\IeC {\"a}higkeit in Abh\IeC {\"a}ngigkeit zur Temperatur von n- und p-dotiertem Germanium\relax }}{14}{figure.caption.34}
+\contentsline {figure}{\numberline {11}{\ignorespaces Linearer Fit mit Gewichtung $\frac {1}{(a_{i}*x_{error})^2+(y_{error})^2}$ p-dotiert bei $T=300.0K$ und n-dotiert bei $T=299.0K$: $f_{p}(x)=(0.71085 \pm 0.00073)x + (-0.000027 \pm 0.000012)$ $f_{n}(x)=(0.65962 \pm 0.00087)x + (-0.000016 \pm 0.000014)$\relax }}{15}{figure.caption.41}
