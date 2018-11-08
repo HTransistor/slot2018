@@ -2,6 +2,8 @@
 
 # $1 inputfile.mrc
 # $2 "top" or "bottom"
+# $3 DAng delta, Dx now fixed
+# $4 Dx here if $3
 
 BashFileFolder="`dirname "$0"`"
 
@@ -43,7 +45,7 @@ fi
 
 #------------------------------------------
 
-if [ -d "$DIRECTORY" ]; then
+if [ -d "$Folder" ]; then
 	mv "$Folder" "${Folder}_`date -Iseconds`"
 fi
 mkdir "$Folder"
@@ -52,14 +54,33 @@ echo "inputfile = $Name" > "$Folder/info.txt"
 echo "folder = `pwd`" > "$Folder/info.txt"
 
 function recons {
-	tilt -THICKNESS "$Nx" -OFFSET "0 $1" -TILTFILE "$WinkelFile" -WeightFile "$GewichtFile" -INPUT "$Name" -OUTPUT "$Folder/dx$1.mrc" -SLICE "$Slicey1 $Slicey2" -UseGPU 0
-	mrc2tif -p "$Folder/dx$1.mrc" "$Folder/dx$1.png"
-	rm "$Folder/dx$1.mrc"
+	tilt -THICKNESS "$Nx" -OFFSET "0 $1" -XAXISTILT "$2" -TILTFILE "$WinkelFile" -WeightFile "$GewichtFile" -INPUT "$Name" -OUTPUT "$Folder/dx$1_$2.mrc" -SLICE "$Slicey1 $Slicey2" -UseGPU "0"
+	mrc2tif -p "$Folder/dx$1_$2.mrc" "$Folder/dx$1_$2.png"
+	rm "$Folder/dx$1_$2.mrc"
 }
+
+DAng="0"
+if [ -n "$3" ]
+then
+	echo "mache ang"
+	DAng="$3"
+	Counter="$DAng"
+	Step="$(($DAng / 10))"
+
+	while [ $Counter -ge $((0 - $DAng)) ]
+	do
+		recons "$4" "$Counter"
+		Counter="$(($Counter - $Step))"
+	done
+
+	exit 0
+else
+	echo "no ang"
+fi
 
 Counter="$(($Aroundx - $Deltax))"
 while [ $Counter -lt $(($(($Aroundx + $Deltax)) + $Step)) ]
 do
-	recons "$Counter"
+	recons "$Counter" "0"
 	Counter="$(($Counter + $Step))"
 done
