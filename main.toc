@@ -1,3 +1,3 @@
-\babel@toc {ngerman}{}
+\select@language {ngerman}
 \contentsline {section}{\numberline {1}SLOT - Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{2}{section.2}
 \contentsline {section}{\numberline {2}Aufnahmen von Heuschreckengehirnen}{5}{section.8}
