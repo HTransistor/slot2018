@@ -4,49 +4,91 @@
 \input{titlepage.tex}
 
 \section{Einleitung}
-In diesem Versuch wird die Methode der Tomographie am Beispiel der \colorcap[blue]{Scanning Laser Optical Tomography} - kurz SLOT - untersucht. Dieses ist ein spezielles dreidimensionales Tomographie-Verfahren, das mit Lasern verschiedener Wellenlängen mittels der Ausnutzung von Streuung, Absorption und Fluoreszenz ein bildgebendes Verfahren liefert.\\
+In diesem Versuch wird die Methode der Tomographie am Beispiel SLOT \\ \glqq \colorcap[blue]{Scanning Laser Optical Tomography} \grqq untersucht. Dieses ist ein spezielles dreidimensionales Tomographie-Verfahren, das mit Lasern verschiedener Wellenlängen mittels der Ausnutzung von Streuung, Absorption und Fluoreszenz ein bildgebendes Verfahren liefert.\\
 
-Das dreidimensionale Präparat wird ebenenweise durch zweidimensionale Schnitte (Tomogramme) konstruiert und zu einem dreidimensionalen Bildobjekt zusammengesetzt. Das entstandene Bildobjekt ist nun vom Präparat getrennt und virtuell verfügbar. Daraus ergibt sich der Vorteil das Präparat unbeschädigt lassen zu können und dennoch die innere Struktur des Präparates zu untersuchen.\\
+Das dreidimensionale Präparat wird ebenenweise durch zweidimensionale Schnitte (Tomogramme) konstruiert und zu einem dreidimensionalen Bildobjekt zusammengesetzt. Das entstandene Bildobjekt ist nun vom Präparat getrennt und virtuell verfügbar. Daraus ergibt sich der Vorteil das Präparat unbeschädigt lassen zu können und dennoch die innere Struktur des Präparates zu untersuchen \cite{Anleitung}.\\
 
 \section{Scanning Laser Optical Tomography}
-\subsection{Funktionsweise}
-SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf die Mitte des Präparates fokussierten Laser abläuft. Das Präparat muss "Aufgeklart" sein, um Streuung beim Übergang zwischen Präparat und Träger des Präparats zu verringern und eine höhere Transmission zu erreichen. Hierzu wird Wasser oder Glycerin genutzt, da dieses einen ähnlichen Brechungsindex wie organische Präparate haben. Das transmittierte Laserlicht wird von einer Photodiode hinter der Probenkammer detektiert. Um eine Rekonstruktion durchführen zu können sind Aufnahmen des Präparats von verschiedenen Richtungen aus nötig, Hintergrund ist die Radontransformation. Diese verschiedenen Aufnahmen werden durch einen Motor ermöglicht der die Kapillare und damit das Präparat dreht. Weiterhin regt das Laserlicht das Präparat zur Fluoreszenz an, welches mittels plankovexen Linsen mit dazwischen liegendem Fluoreszenz-Filter gesammelt und auf den sensitiven Photomuliplier (PMT) geleitet wird.\\
 
 \subsection{Radontransformation}
+Bei allen Computertomographie-Verfahren ist die Radontransformation die mathematische Grundlage, um das integrierte Signal eines Strahls durch das Präparat für eine Rekonstruktion zu nutzen.
+
+Die Strahlen werden hierfür in Zylinderkoordinaten durch eine Schar mit Laufparameter s und parametrisiert:
+\begin{equation}
+lin_{p,q}(s) = \begin{pmatrix}
+\cos(\phi) & -\sin(\phi)  \\
+\sin(\phi) & \cos(\phi) \\
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+\rho \\
+s \\
+\end{pmatrix}
+ =
+\begin{pmatrix}
+\rho \cdot \cos(\phi) - s \cdot \sin(\phi) \\
+\rho \cdot \sin(\phi) + s \cdot \cos(\phi) \\
+\end{pmatrix}
+\end{equation}
+
+%\begin{minipage}{\linewidth}
+\begin{figure}[H]
+	\centering
+\includegraphics[width=0.6\linewidth]{IMAGE/radon.png}
+	\caption{Graphische Darstellung der Radontransformation \cite{slot_paper}}
+	\label{fig:radon}
+\end{figure}
+
+Für eine zweidimensionale Funktion $f(x,y)$ ist nun die Radontransformierte das integrierte Signal über den parametrisierten Weg durch das Präparat:
+
+\begin{equation}
+R(\rho,\phi) = \int_{- \infty}^{\infty} f(lin_{p,q}(s)) \,\mathrm{d}s
+=
+\int_{- \infty}^{\infty} f\begin{pmatrix}
+\rho \cdot \cos(\phi) - s \cdot \sin(\phi) \\
+\rho \cdot \sin(\phi) + s \cdot \cos(\phi) \\
+\end{pmatrix} \,\mathrm{d}s
+\end{equation}
+
+Entscheidend für die Nutzung bei der Tomographie ist die Invertierbarkeit der Radontransformierten $R(\rho,\phi)$, denn dies ermöglicht die Rekonstruktion der ursprünglichen Funktion $f(x,y)$, also die Rekonstruktion des Präparates \cite{slot_paper}.
+%\end{minipage}
+
+\subsection{Funktionsweise}
+\begin{minipage}{\linewidth}
+SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf die Mitte des Präparates fokussierten Laser abläuft. Das Präparat muss \glqq aufgeklart\grqq sein, um Streuung beim Übergang zwischen Präparat und Träger des Präparats zu verringern und eine höhere Transmission zu erreichen. Hierzu wird Wasser oder Glycerin genutzt, da dieses einen ähnlichen Brechungsindex wie organische Präparate haben. Das transmittierte Laserlicht wird von einer Photodiode hinter der Probenkammer detektiert. Um eine Rekonstruktion durchführen zu können sind Aufnahmen des Präparats von verschiedenen Richtungen aus nötig, Hintergrund ist die Radontransformation. Diese verschiedenen Aufnahmen werden durch einen Motor ermöglicht der die Kapillare und damit das Präparat dreht. Weiterhin regt das Laserlicht das Präparat zur Fluoreszenz an, welches mittels plankovexen Linsen mit dazwischen liegendem Fluoreszenz-Filter gesammelt und auf den sensitiven Photomuliplier (PMT) geleitet wird \cite{Anleitung}.\\
+
+\begin{figure}[H]
+	\centering
+\includegraphics[width=0.6\linewidth]{IMAGE/slot_schema.png}
+	\caption{Schema eines scannenden laseroptischen Tomographen (SLOT) \cite{slot_paper}}
+	\label{fig:schema}
+\end{figure} 
+\end{minipage}
 
 %%%nopagebreak (gehört zusammen)
  \nopagebreak
  \hrule height 0pt
  \pagebreak[2]
 %%% 
+
 \section{Versuchsaufbau}
+
 \begin{minipage}{\linewidth}
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1.0\linewidth]{IMAGE/versuchsaufbau.png}
-	\caption{Versuchsaufbau}
+	\caption{Versuchsaufbau \cite{Anleitung}}
 	\label{fig:versuchsaufbau}
 \end{figure} 
 
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1.0\linewidth]{IMAGE/scanner.jpeg}
-	\caption{Teleskop und Scanner}
+	\caption{Teleskop und Scanner \cite{Anleitung}}
 	\label{fig:scanner}
 \end{figure}
 
 \end{minipage}
-
-%%%%%%%%%TODO: Grafiken nebeneinander %%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-%\begin{figure}
-%\subfloat[][]{\includegraphics[width=0.475\linewidth]{IMAGE/einkopplung.jpeg}%\label{fig:einkopplung}}
-	%\caption{Einkopplung der Laserdiode}
-%\qquad
-%\subfloat[][]{\includegraphics[width=0.475\linewidth]{IMAGE/pmt.png}\label{fig:pmt}}
-
-%\caption{Filterrad und PMT}
-%\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
 \begin{subfigure}[b]{0.5\linewidth}
@@ -60,7 +102,7 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 \subcaption[c]{Filterrad und PMT}
 \end{subfigure}
 
-\caption{Zwei Bilder mit Subfigure nebeneinander}
+\caption{Die Laserkonfiguration ist vom restlichen Versuchsaufbau getrennt \cite{Anleitung}}
 \end{figure}
 %%%%%%%%%%%%%%%
 \clearpage
@@ -68,15 +110,10 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 \begin{figure}[H]
 	\centering
 \includegraphics[width=0.5\linewidth]{IMAGE/turm.png}
-	\caption{Turm mit Rotationsachse}
+	\caption{Turm mit Rotationsachse \cite{Anleitung}}
 	\label{fig:turm}
 \end{figure}
  
-%\end{minipage}
-
-
-
-
 \section{Auflösungsvermögen}
 
 Der Kontrast in Abhängigkeit von der horizontalen und vertikalen Auflösung wurde für verschiedene Fokussierungen, Strahlendurchmesser und Wellenlängen des Lasers gemessen. Dadurch ergibt sich die Modulationsübertragungsfunktion.
@@ -205,10 +242,18 @@ Mit dem ImageJ-Plugin ,,Volume Viewer'' ist es nach der Rekonstruktion möglich 
 	\label{fig:3d}
 \end{figure}
 
-
+%\listoftables
+\clearpage
+\listoffigures
 %\clearpage
-%\begin{thebibliography}{99}
+\begin{thebibliography}{99}
 %	\bibitem{Schaltung1} \textsc{Saure aus Wikimedia Commons}, \emph{Gleichrichter-Schaltung mit Glättung} (26. August 2009) (Stand: 08.03.2018) \url{https://commons.wikimedia.org/w/index.php?title=File:Gleichrichter-Schaltung.svg&oldid=291347227&uselang=de}
-%\end{thebibliography}
+\bibitem{Anleitung} \textsc{Lena Nolte}, \emph{Versuchsanleitung: IQ18 SLOT für das Laborpraktikum Atom- und Molekühlphysik
+der Leibniz Universität Hannover} (2015) 
+
+\bibitem{slot_paper} \textsc{Raoul-Amadeus Lorbeer}, \emph{Dreidimensionale und effiziente Erfassung mesoskopischer Proben} (2013) 
+\end{thebibliography}
+
+
 
 \end{document}

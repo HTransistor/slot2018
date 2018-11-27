@@ -1,8 +1,8 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Einleitung}{2}{section.2}
 \contentsline {section}{\numberline {2}Scanning Laser Optical Tomography}{2}{section.3}
-\contentsline {subsection}{\numberline {2.1}Funktionsweise}{2}{subsection.4}
-\contentsline {subsection}{\numberline {2.2}Radontransformation}{2}{subsection.5}
-\contentsline {section}{\numberline {3}Versuchsaufbau}{3}{section.6}
-\contentsline {section}{\numberline {4}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{5}{section.11}
-\contentsline {section}{\numberline {5}Aufnahmen von Heuschreckengehirnen}{9}{section.17}
+\contentsline {subsection}{\numberline {2.1}Radontransformation}{2}{subsection.4}
+\contentsline {subsection}{\numberline {2.2}Funktionsweise}{3}{subsection.8}
+\contentsline {section}{\numberline {3}Versuchsaufbau}{4}{section.10}
+\contentsline {section}{\numberline {4}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{6}{section.15}
+\contentsline {section}{\numberline {5}Aufnahmen von Heuschreckengehirnen}{10}{section.21}
