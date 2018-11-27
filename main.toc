@@ -4,5 +4,5 @@
 \contentsline {subsection}{\numberline {2.1}Funktionsweise}{2}{subsection.4}
 \contentsline {subsection}{\numberline {2.2}Radontransformation}{4}{subsection.5}
 \contentsline {section}{\numberline {3}Versuchsaufbau}{4}{section.6}
-\contentsline {section}{\numberline {4}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{7}{section.12}
-\contentsline {section}{\numberline {5}Aufnahmen von Heuschreckengehirnen}{11}{section.18}
+\contentsline {section}{\numberline {4}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{6}{section.11}
+\contentsline {section}{\numberline {5}Aufnahmen von Heuschreckengehirnen}{10}{section.17}
