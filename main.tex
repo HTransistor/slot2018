@@ -14,6 +14,11 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 
 \subsection{Radontransformation}
 
+%%%nopagebreak (gehört zusammen)
+ \nopagebreak
+ \hrule height 0pt
+ \pagebreak[2]
+%%% 
 \section{Versuchsaufbau}
 \begin{minipage}{\linewidth}
 \begin{figure}[H]
@@ -33,20 +38,32 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 \end{minipage}
 
 %%%%%%%%%TODO: Grafiken nebeneinander %%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\begin{figure}
-%\begin{minipage}{\linewidth}
-\subfloat[][]{\includegraphics[width=0.475\linewidth]{IMAGE/einkopplung.jpeg}}
+%\begin{figure}
+%\subfloat[][]{\includegraphics[width=0.475\linewidth]{IMAGE/einkopplung.jpeg}%\label{fig:einkopplung}}
 	%\caption{Einkopplung der Laserdiode}
-	%\label{fig:einkopplung}
-\qquad
-\subfloat[][]{\includegraphics[width=0.475\linewidth]{IMAGE/pmt.png}}
-	\caption{Filterrad und PMT}
-	%\label{fig:pmt}
-	%\end{minipage}
-\end{figure}
+%\qquad
+%\subfloat[][]{\includegraphics[width=0.475\linewidth]{IMAGE/pmt.png}\label{fig:pmt}}
 
+%\caption{Filterrad und PMT}
+%\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
+
+\begin{figure}
+\begin{subfigure}[b]{0.5\linewidth}
+\includegraphics[width=0.98\linewidth]{IMAGE/einkopplung.jpeg}
+\label{fig:einkopplung}
+\subcaption{Einkopplung der Laserdiode}
+
+\end{subfigure}
+\begin{subfigure}[b]{0.5\linewidth}
+\includegraphics[width=0.98\linewidth]{IMAGE/pmt.png}\label{fig:pmt}
+\subcaption[c]{Filterrad und PMT}
+\end{subfigure}
+
+\caption{Zwei Bilder mit Subfigure nebeneinander}
+\end{figure}
+%%%%%%%%%%%%%%%
+\clearpage
 
 \begin{figure}[H]
 	\centering
