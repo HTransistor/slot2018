@@ -6,4 +6,4 @@
 \contentsline {subsection}{\numberline {2.3}Versuchsaufbau}{4}{subsection.10}
 \contentsline {section}{\numberline {3}Ergebnisse}{6}{section.15}
 \contentsline {subsection}{\numberline {3.1}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{6}{subsection.16}
-\contentsline {subsection}{\numberline {3.2}Aufnahmen von Heuschreckengehirnen}{10}{subsection.22}
+\contentsline {subsection}{\numberline {3.2}Aufnahmen von Heuschreckengehirnen}{9}{subsection.22}

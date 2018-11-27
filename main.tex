@@ -99,33 +99,28 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 \end{subfigure}
 \begin{subfigure}[b]{0.5\linewidth}
 \includegraphics[width=0.98\linewidth]{IMAGE/pmt.png}\label{fig:pmt}
-\subcaption[c]{Filterrad und PMT}
+\subcaption[c]{Filterrad und Photomuliplier (PMT)}
 \end{subfigure}
 
-\caption{Die Laserkonfiguration ist vom restlichen Versuchsaufbau getrennt \cite{Anleitung}}
+\caption{Trennung der Laserkonfiguration vom restlichen Versuchsaufbau \cite{Anleitung}}
 \end{figure}
 %%%%%%%%%%%%%%%
 \clearpage
 
+\begin{minipage}{\linewidth}
 \begin{figure}[H]
 	\centering
-\includegraphics[width=0.5\linewidth]{IMAGE/turm.png}
+\includegraphics[width=0.491\linewidth]{IMAGE/turm.png}
 	\caption{Turm mit Rotationsachse \cite{Anleitung}}
 	\label{fig:turm}
 \end{figure}
 
 \section{Ergebnisse}
 \subsection{Auflösungsvermögen}
-
-Der Kontrast in Abhängigkeit von der horizontalen und vertikalen Auflösung wurde für verschiedene Fokussierungen, Strahlendurchmesser und Wellenlängen des Lasers gemessen. Dadurch ergibt sich die Modulationsübertragungsfunktion.
- 
+Der Kontrast in Abhängigkeit von der horizontalen und vertikalen Auflösung wurde für verschiedene Fokussierungen, Strahlendurchmesser und Wellenlängen des Lasers gemessen. Dadurch ergibt sich die Modulationsübertragungsfunktion.\\ 
 Bei allen Messungen wurde die Dunkelaufnahme von der normalen abgezogen, um ein Rauschen herauszurechnen.\\
-
 Für geringe Auflösung wurde die Modulationsübertragungsfunktion  in Abhängikeit zur horizontalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2h1} und zur vertikalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2v1} dargestellt.\\
-Für hohe Auflösung ist diese zur horizontalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2h2} und zur vertikalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2v2} dargestellt.
-
-Außerdem sind die Modulationsübertragungsfunktionen für hohe Auflösungen in Abbildung \ref{fig:Versuch2_Plot2_all} dargestellt, um diese untereinander besser vergleichen zu können.
-
+\end{minipage}
 
 \begin{minipage}{\linewidth}
 \begin{figure}[H]
@@ -146,10 +141,10 @@ Ein erhöhter Strahlendurchmesser verbessert den Kontrast.\\
 Bei geringer Auflösung ist der Kontrast für eine höhere Wellenlänge höher.\\
 Der Kontrast ist in horizontaler und vertikaler Richtung von vergleichbarer Höhe.\\
 Weiterhin sinkt der Kontrast rapide, falls ohne Fokussierung gemessen wird.
-
 \end{minipage}
 
 \begin{minipage}{\linewidth}
+Für hohe Auflösung ist diese zur horizontalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2h2} und zur vertikalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2v2} dargestellt.
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1.0\linewidth]{IMAGE/Versuch2Plot2horizontal2.pdf}
@@ -163,11 +158,10 @@ Weiterhin sinkt der Kontrast rapide, falls ohne Fokussierung gemessen wird.
 	\caption{Kontrast bei hoher Auflösung (vertikal)}
 	\label{fig:Versuch2_Plot2v2}
 \end{figure} 
-
-Auch bei hoher Auflösung ist verbessert ein erhöhter Strahlendurchmesser  den Kontrast. Zwar ist der Kontrast bei einer geringen Auflösung bei einer höheren Wellenlänge höher, aber ab etwa einer Auflösung von $20 \frac{lp}{mm}$ erhöht eine kleine Wellenlänge den Kontrast.
+Auch bei hoher Auflösung verbessert ein erhöhter Strahlendurchmesser  den Kontrast. Zwar ist der Kontrast bei einer geringen Auflösung bei einer höheren Wellenlänge höher, aber ab etwa einer Auflösung von $20 \frac{lp}{mm}$ erhöht eine kleine Wellenlänge den Kontrast.
 \end{minipage}
 
-
+Weiterhin sind die Modulationsübertragungsfunktionen für hohe Auflösungen in Abbildung \ref{fig:Versuch2_Plot2_all} dargestellt, um diese untereinander besser vergleichen zu können.
 
 \begin{figure}[H]
 \centering
@@ -181,30 +175,28 @@ Auch bei hoher Auflösung ist verbessert ein erhöhter Strahlendurchmesser  den 
 
 %%%%%%%%%%%%%%%%%%%%%%%Ab hier alte Vorlage%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Aufnahmen von Heuschreckengehirnen}
-In diesem Versuchsabschitt haben wir als Probe ein präpariertes Heuschreckengehirn in den SLOT-Aufbau gestellt.
-Die Probe war in einer Küvette und hat sich mit dieser um die $z$-Achse gedreht.
-Mit einer 360°-Drehung um die $z$-Achse haben wir also unsere Aufnahmen unter verschieden Einstellungen aufgenommen.
-Interessant war bei dieser Messung, dass wir die Fluoreszenz mit dem Photomultiplier (PMT) darstellen konnten, da es sich hier, im Gegensatz zum USAF-Target, um eine 3-dimensionale Probe handelt.
+In diesem Versuchsabschitt wurde als Probe ein präpariertes Heuschreckengehirn für die Rekonstruktion mittels SLOT gewählt.
+Die Probe wurde in einer Küvette fixiert und wurde mit dieser um die $z$-Achse gedreht.
+Mit einer 360°-Drehung um die $z$-Achse wurden die Aufnahmen unter verschiedenen Einstellungen aufgenommen.
+Interessant war bei dieser Messung, dass die Fluoreszenz mit dem Photomultiplier (PMT) darstellen konnten, da es sich hier, im Gegensatz zum USAF-Target, um eine dreidimensionale Probe handelt, die fluoresziert.
 
-Wichtig für die Auswertung dieser Messung war, dass die Drehachse der Probe nicht präzessiert, was wir leider durch ausporbieren am Aufbau nicht ganz vermeiden konnten.
-Die Achse wandert also ca. 4 Pixel von links nach rechts.
+Wichtig für die Auswertung dieser Messung war, dass die Drehachse der Probe nicht präzessiert, was durch die Justage am Aufbau nicht ganz vermieden werden konnte.
+Die Achse wandert folglich circa 4 Pixel in horizontaler Richtung.
 
-Die durchschnitttliche Schieflage $\alpha$  konnten wir bei der Auswertung jedoch ausgleichen.
-Dazu haben wir den Drehachsendurchlauf am oberen und unteren Bildrand gemessen und den Winkel $\alpha$ mit
+Die durchschnittliche Schieflage $\alpha$ konnte bei der Auswertung jedoch ausgeglichen werden.
+Dazu wurde der Drehachsendurchlauf am oberen und unteren Bildrand gemessen und der Winkel $\alpha$ nach folgender Formel berechnet:
 $$\alpha = \arcsin \left( \frac{\Delta{x_{\text{oben}}} - \Delta{x_{\text{unten}}}}{y_{\text{max}}} \right)$$
-berechnet.
-Hier entspricht $y_\text{max}$ der Anzahl an Pixel auf der $y$-Achse im Bild.
 
-Um $\Delta{x_{\text{oben}}}$ und $\Delta{x_{\text{unten}}}$ messen zu können haben wir die jeweilige Ebene mit 100 verschiedenen $x$-Achsenverschiebungen mit ,,tilt'' rekonstruiert und anschließend das beste Bild herausgesucht (möglichst keine Ringartefakte).
+Hier entspricht $y_\text{max}$ der Anzahl der Pixel auf der $y$-Achse im Bild.
 
-Dann haben wir die Aufnahme mit ,,ImageJ'' um den jeweiligen Winkel gedreht und das Ergebnis wieder mit ,,tilt'' aber dieses mal für alle Ebenen rekonstruiert.
-Dabei haben wir auch die mittlere $x$-Achsenverschiebung
+Um $\Delta{x_{\text{oben}}}$ und $\Delta{x_{\text{unten}}}$ zu messen wurde die jeweilige Ebene mit 100 verschiedenen $x$-Achsenverschiebungen mit  \glqq tilt\grqq rekonstruiert und anschließend das beste Bild herausgesucht (Reduzierung der Ringartefakte).
+
+Im Folgenden wurde die Aufnahme mit \glqq ImageJ\grqq um den jeweiligen Winkel gedreht und das Ergebnis wieder mit  \glqq tilt\grqq , aber dieses mal für alle Ebenen rekonstruiert.
+Dabei wurde auch die mittlere $x$-Achsenverschiebung beachtet:
 $$\Delta{x} = \frac{\Delta{x_{\text{oben}}} - \Delta{x_{\text{unten}}}}{2}$$
-beachtet.
 
-
-Eine Verlängerung der Integrationszeit $\Delta{t}$ von $1 \si{s}$ zu $2 \si{s}$ hatte nur eine Aufhellung des PMT-Bildes zu Folge.
-Da wir bei dieser Aufnahme jedoch einen unpassenden Filter verwendeten, zeigt das PMT-Bild auch nur das gestreute Licht. Das Ergebnis ist in Abbildung \ref{fig:lang-int} zu sehen.
+Eine Verlängerung der Integrationszeit $\Delta{t}$ von $1 \si{s}$ zu $2 \si{s}$ hatte nur eine Aufhellung des PMT-Bildes zur Folge.
+Da bei dieser Aufnahme jedoch ein unpassender Filter verwendetet wurde, zeigt das PMT-Bild auch nur das gestreute Licht. Das Ergebnis ist in Abbildung \ref{fig:lang-int} zu sehen.
 
 \begin{figure}[ht]
 \centering
@@ -213,35 +205,40 @@ Da wir bei dieser Aufnahme jedoch einen unpassenden Filter verwendeten, zeigt da
 	\label{fig:lang-int}
 \end{figure}
 
-Mit der Photodiode lassen sich die äußeren Umrisse gut erkennen, mit dem PMT auch die Dichte im Inneren.
+Mit der Photodiode lassen sich die äußeren Umrisse gut erkennen, mit dem Photomultiplier sogar die Dichte im Inneren.
 
+\begin{minipage}{\linewidth}
 In Abbildung \ref{fig:both-pht} sind 2 Rekonstruktionen der Bilder der Photodiode dargestellt.
-Man erkennt, dass das Bild mit der längeren Wellenlänge feinere Strukturen im Heuschreckengehirn darstellt.
-
-\begin{figure}[ht]
+Es ist erkennbar, dass das Bild mit der längeren Wellenlänge feinere Strukturen im Heuschreckengehirn auflöst.
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth]{IMAGE/2-pht.png}
 \caption{Rekonstruktion: $\lambda = 520 \si{nm}$ links, $\lambda = 450 \si{nm}$ rechts; Photodiode, $\Delta{t} = 1 \si{s}$, $\lambda_\text{Filter} = (520 \pm 36) \si{nm}$, $d_\text{Strahl} = 5 \si{mm}$}
 	\label{fig:both-pht}
 \end{figure}
 
-In Abbildung \ref{fig:both-pmt} wurden Bilder des PMT vom jeweiligen Fluoreszenzlicht der Laser rekonstruiert. Im Vergleich stellt man fest, dass man bei $\lambda= 520 \si{nm}$ mehr erkennt.
+In Abbildung \ref{fig:both-pmt} wurden Bilder des PMT vom jeweiligen Fluoreszenzlicht der Laser rekonstruiert. Im Vergleich ist festzustellen, dass bei $\lambda= 520 \si{nm}$ die Auflösung höher ist.
 
-\begin{figure}[ht]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth]{IMAGE/2-pmt.png}
-\caption{Rekonstruktion: $\lambda = 520 \si{nm}$ links mit $\lambda_\text{Filter} = (676 \pm 29) \si{nm}$ links, $\lambda = 450 \si{nm}$ mit $\lambda_\text{Filter} \ge 570 \si{nm}$ rechts; Photodiode, $\Delta{t} = 1 \si{s}$, $d_\text{Strahl} = 5 \si{mm}$}
+\caption{Rekonstruktion: $\lambda = 520 \si{nm}$ links mit $\lambda_\text{Filter} = (676 \pm 29) \si{nm}$ links,\\
+$\lambda = 450 \si{nm}$ mit $\lambda_\text{Filter} \ge 570 \si{nm}$ rechts; Photodiode, $\Delta{t} = 1 \si{s}$,\\
+$d_\text{Strahl} = 5 \si{mm}$}
 	\label{fig:both-pmt}
 \end{figure}
+\end{minipage}
 
-Mit dem ImageJ-Plugin ,,Volume Viewer'' ist es nach der Rekonstruktion möglich verschiedene Ansichten auf das Heuschreckengehirn zu generieren. Ein anschauliches Beispiel ist in Abbildung \ref{fig:3d} zu finden.
+\begin{minipage}{\linewidth}
+Mit dem ImageJ-Plugin \glqq Volume Viewer\grqq \, ist es nach der Rekonstruktion möglich verschiedene Ansichten auf das Heuschreckengehirn zu generieren. Ein mögliche Ansicht ist in Abbildung \ref{fig:3d} dargestellt.
 
-\begin{figure}[ht]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth]{IMAGE/3dtomo.png}
-\caption{3-dimensionale Ansicht einer PMT-Aufnahme: $\lambda = 520 \si{nm}$ mit $\lambda_\text{Filter} = (676 \pm 29) \si{nm}$, $\Delta{t} = 1 \si{s}$, $d_\text{Strahl} = 5 \si{mm}$}
+\caption{3-dimensionale Ansicht einer PMT-Aufnahme: $\lambda = 520 \si{nm}$ mit\\ $\lambda_\text{Filter} = (676 \pm 29) \si{nm}$, $\Delta{t} = 1 \si{s}$, $d_\text{Strahl} = 5 \si{mm}$}
 	\label{fig:3d}
 \end{figure}
+\end{minipage}
 
 %\listoftables
 \clearpage
