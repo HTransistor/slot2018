@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.5)  27 NOV 2018 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.5)  27 NOV 2018 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2340,7 +2340,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./titlepage.tex
-<IMAGE/luh_logo.png, id=32, 1134.03674pt x 327.02174pt>
+<IMAGE/luh_logo.png, id=36, 1134.03674pt x 327.02174pt>
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
 Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 18.
@@ -2383,7 +2383,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 13.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 13.
-<IMAGE/radon.png, id=56, 229.85875pt x 120.45pt>
+<IMAGE/radon.png, id=61, 229.85875pt x 120.45pt>
 File: IMAGE/radon.png Graphic file (type png)
 <use IMAGE/radon.png>
 Package pdftex.def Info: IMAGE/radon.png  used on input line 37.
@@ -2406,7 +2406,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-<IMAGE/slot_schema.png, id=75, 311.1625pt x 237.88875pt>
+<IMAGE/slot_schema.png, id=80, 311.1625pt x 237.88875pt>
 File: IMAGE/slot_schema.png Graphic file (type png)
 <use IMAGE/slot_schema.png>
 Package pdftex.def Info: IMAGE/slot_schema.png  used on input line 62.
@@ -2420,12 +2420,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 74.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 74.
-<IMAGE/versuchsaufbau.png, id=78, 491.8375pt x 276.03125pt>
+<IMAGE/versuchsaufbau.png, id=83, 491.8375pt x 276.03125pt>
 File: IMAGE/versuchsaufbau.png Graphic file (type png)
 <use IMAGE/versuchsaufbau.png>
 Package pdftex.def Info: IMAGE/versuchsaufbau.png  used on input line 79.
 (pdftex.def)             Requested size: 434.55125pt x 243.8896pt.
-<IMAGE/scanner.jpeg, id=81, 491.8375pt x 276.03125pt>
+<IMAGE/scanner.jpeg, id=86, 491.8375pt x 276.03125pt>
 File: IMAGE/scanner.jpeg Graphic file (type jpg)
 <use IMAGE/scanner.jpeg>
 Package pdftex.def Info: IMAGE/scanner.jpeg  used on input line 86.
@@ -2435,12 +2435,12 @@ Overfull \hbox (11.74988pt too wide) in paragraph at lines 76--92
 $[]$ 
  []
 
-<IMAGE/einkopplung.jpeg, id=84, 276.03125pt x 491.8375pt>
+<IMAGE/einkopplung.jpeg, id=89, 276.03125pt x 491.8375pt>
 File: IMAGE/einkopplung.jpeg Graphic file (type jpg)
 <use IMAGE/einkopplung.jpeg>
 Package pdftex.def Info: IMAGE/einkopplung.jpeg  used on input line 95.
 (pdftex.def)             Requested size: 212.92917pt x 379.4215pt.
-<IMAGE/pmt.png, id=85, 276.03125pt x 491.8375pt>
+<IMAGE/pmt.png, id=90, 276.03125pt x 491.8375pt>
 File: IMAGE/pmt.png Graphic file (type png)
 <use IMAGE/pmt.png>
 Package pdftex.def Info: IMAGE/pmt.png  used on input line 101.
@@ -2477,7 +2477,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 108.
  [5 <./IMAGE/einkopplung.jpeg> <./IMAGE/pmt.png>]
-<IMAGE/turm.png, id=110, 276.03125pt x 491.8375pt>
+<IMAGE/turm.png, id=115, 276.03125pt x 491.8375pt>
 File: IMAGE/turm.png Graphic file (type png)
 <use IMAGE/turm.png>
 Package pdftex.def Info: IMAGE/turm.png  used on input line 112.
@@ -2486,198 +2486,202 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 117.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 118.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 118.
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 125.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 126.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 125.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 125.
+(babel)             in language  on input line 126.
 [6
 
  <./IMAGE/turm.png>]
-<IMAGE/Versuch2Plot1horizontal2.pdf, id=126, 1313.90875pt x 716.6775pt>
+<IMAGE/Versuch2Plot1horizontal2.pdf, id=130, 1313.90875pt x 716.6775pt>
 File: IMAGE/Versuch2Plot1horizontal2.pdf Graphic file (type pdf)
 <use IMAGE/Versuch2Plot1horizontal2.pdf>
 Package pdftex.def Info: IMAGE/Versuch2Plot1horizontal2.pdf  used on input line
- 132.
+ 133.
 (pdftex.def)             Requested size: 434.55125pt x 237.02922pt.
-<IMAGE/Versuch2Plot1vertikal2.pdf, id=127, 949.5475pt x 494.84875pt>
+<IMAGE/Versuch2Plot1vertikal2.pdf, id=131, 949.5475pt x 494.84875pt>
 File: IMAGE/Versuch2Plot1vertikal2.pdf Graphic file (type pdf)
 <use IMAGE/Versuch2Plot1vertikal2.pdf>
 Package pdftex.def Info: IMAGE/Versuch2Plot1vertikal2.pdf  used on input line 1
-39.
+40.
 (pdftex.def)             Requested size: 434.55125pt x 226.46281pt.
 
-Overfull \hbox (11.74988pt too wide) in paragraph at lines 129--150
+Overfull \hbox (11.74988pt too wide) in paragraph at lines 130--151
 []$[]$ 
  []
 
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 151.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 152.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 [7]
 Overfull \vbox (2.82532pt too high) has occurred while \output is active []
 
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 151.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 152.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 
 [8 <./IMAGE/Versuch2Plot1horizontal2.pdf> <./IMAGE/Versuch2Plot1vertikal2.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMAGE/Versuch2Plot1vertikal2.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >]
-<IMAGE/Versuch2Plot2horizontal2.pdf, id=181, 950.55125pt x 495.8525pt>
+<IMAGE/Versuch2Plot2horizontal2.pdf, id=186, 950.55125pt x 495.8525pt>
 File: IMAGE/Versuch2Plot2horizontal2.pdf Graphic file (type pdf)
 <use IMAGE/Versuch2Plot2horizontal2.pdf>
 Package pdftex.def Info: IMAGE/Versuch2Plot2horizontal2.pdf  used on input line
- 154.
+ 155.
 (pdftex.def)             Requested size: 434.55125pt x 226.68005pt.
-<IMAGE/Versuch2Plot2vertikal2.pdf, id=182, 1124.2pt x 601.24625pt>
+<IMAGE/Versuch2Plot2vertikal2.pdf, id=187, 1124.2pt x 601.24625pt>
 File: IMAGE/Versuch2Plot2vertikal2.pdf Graphic file (type pdf)
 <use IMAGE/Versuch2Plot2vertikal2.pdf>
 Package pdftex.def Info: IMAGE/Versuch2Plot2vertikal2.pdf  used on input line 1
-61.
+62.
 (pdftex.def)             Requested size: 434.55125pt x 232.40253pt.
 
-Overfull \hbox (11.74988pt too wide) in paragraph at lines 151--168
+Overfull \hbox (11.74988pt too wide) in paragraph at lines 152--169
 []$[]$ 
  []
 
-<IMAGE/Versuch2Plot2_all.pdf, id=183, 1197.47375pt x 645.41125pt>
+<IMAGE/Versuch2Plot2_all.pdf, id=188, 1197.47375pt x 645.41125pt>
 File: IMAGE/Versuch2Plot2_all.pdf Graphic file (type pdf)
 <use IMAGE/Versuch2Plot2_all.pdf>
-Package pdftex.def Info: IMAGE/Versuch2Plot2_all.pdf  used on input line 173.
+Package pdftex.def Info: IMAGE/Versuch2Plot2_all.pdf  used on input line 174.
 (pdftex.def)             Requested size: 434.55125pt x 234.20918pt.
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 177.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 178.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 177.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 177.
+(babel)             in language  on input line 178.
 [9 <./IMAGE/Versuch2Plot2horizontal2.pdf> <./IMAGE/Versuch2Plot2vertikal2.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMAGE/Versuch2Plot2vertikal2.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 182.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 182.
+(babel)             in language  on input line 183.
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 199.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 202.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 202.
  [10 <./IMAGE/Versuch2Plot2_all.pdf>]
-<IMAGE/both-2-450-5-1.png, id=255, 963.6pt x 481.8pt>
+<IMAGE/both-2-450-5-1.png, id=260, 963.6pt x 481.8pt>
 File: IMAGE/both-2-450-5-1.png Graphic file (type png)
 <use IMAGE/both-2-450-5-1.png>
-Package pdftex.def Info: IMAGE/both-2-450-5-1.png  used on input line 210.
+Package pdftex.def Info: IMAGE/both-2-450-5-1.png  used on input line 211.
 (pdftex.def)             Requested size: 434.55125pt x 217.27115pt.
-<IMAGE/2-pht.png, id=257, 963.6pt x 481.8pt>
+<IMAGE/2-pht.png, id=262, 963.6pt x 481.8pt>
 File: IMAGE/2-pht.png Graphic file (type png)
 <use IMAGE/2-pht.png>
-Package pdftex.def Info: IMAGE/2-pht.png  used on input line 222.
+Package pdftex.def Info: IMAGE/2-pht.png  used on input line 223.
 (pdftex.def)             Requested size: 434.55125pt x 217.27115pt.
-<IMAGE/2-pmt.png, id=259, 963.6pt x 481.8pt>
+<IMAGE/2-pmt.png, id=264, 963.6pt x 481.8pt>
 File: IMAGE/2-pmt.png Graphic file (type png)
 <use IMAGE/2-pmt.png>
-Package pdftex.def Info: IMAGE/2-pmt.png  used on input line 231.
+Package pdftex.def Info: IMAGE/2-pmt.png  used on input line 232.
 (pdftex.def)             Requested size: 434.55125pt x 217.27115pt.
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 237.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 238.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 238.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 238.
  [11 <./IMAGE/both-2-450-5-1.png>]
-<IMAGE/3dtomo.png, id=268, 210.3057pt x 193.9245pt>
+<IMAGE/3dtomo.png, id=273, 210.3057pt x 193.9245pt>
 File: IMAGE/3dtomo.png Graphic file (type png)
 <use IMAGE/3dtomo.png>
-Package pdftex.def Info: IMAGE/3dtomo.png  used on input line 240.
+Package pdftex.def Info: IMAGE/3dtomo.png  used on input line 241.
 (pdftex.def)             Requested size: 434.55125pt x 400.74649pt.
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 246.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 247.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 247.
 
 [12 <./IMAGE/2-pht.png>]
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 246.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 247.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 247.
  [13 <./IMAGE/2-pmt.png>]
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 246.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 247.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 247.
  [14 <./IMAGE/3dtomo.png>]
 (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 259.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 260.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 259.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 259.
+(babel)             in language  on input line 260.
  [15
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6493FCA26C7431752BE9A7E1A742E361;420.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
+(rerunfilecheck)             Checksum: 20A5FE2E35DEE95E52985373D52E3C82;504.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
  ) 
 Here is how much of TeX's memory you used:
- 25162 strings out of 492642
- 495925 string characters out of 6135567
+ 25164 strings out of 492642
+ 495965 string characters out of 6135567
  661165 words of memory out of 5000000
- 28784 multiletter control sequences out of 15000+600000
+ 28785 multiletter control sequences out of 15000+600000
  549265 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,24n,83p,9104b,928s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2694,10 +2698,10 @@ fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/cm-super/sfrm1200.pfb>
-Output written on main.pdf (16 pages, 2741268 bytes).
+Output written on main.pdf (16 pages, 2741161 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
- 285 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 382 PDF objects out of 1000 (max. 8388607)
+ 290 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

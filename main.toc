@@ -3,6 +3,7 @@
 \contentsline {section}{\numberline {2}Scanning Laser Optical Tomography}{2}{section.3}
 \contentsline {subsection}{\numberline {2.1}Radontransformation}{2}{subsection.4}
 \contentsline {subsection}{\numberline {2.2}Funktionsweise}{3}{subsection.8}
-\contentsline {section}{\numberline {3}Versuchsaufbau}{4}{section.10}
-\contentsline {section}{\numberline {4}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{6}{section.15}
-\contentsline {section}{\numberline {5}Aufnahmen von Heuschreckengehirnen}{10}{section.21}
+\contentsline {subsection}{\numberline {2.3}Versuchsaufbau}{4}{subsection.10}
+\contentsline {section}{\numberline {3}Ergebnisse}{6}{section.15}
+\contentsline {subsection}{\numberline {3.1}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{6}{subsection.16}
+\contentsline {subsection}{\numberline {3.2}Aufnahmen von Heuschreckengehirnen}{10}{subsection.22}
