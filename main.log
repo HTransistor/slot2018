@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.5)  27 NOV 2018 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.5)  28 NOV 2018 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -278,7 +278,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \colorcap with sig. 'O{blue}m' on line 21.
+. Defining command \colorcap with sig. 'O{blue}m' on line 22.
 .................................................
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 11
@@ -296,7 +296,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 45.
+(typearea)              on input line 46.
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 11
 (typearea)             BCOR = 0.0pt
@@ -313,9 +313,9 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 45.
+(typearea)              on input line 46.
 Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
-ine 45.
+ine 46.
 
 (/usr/share/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
 File: scrsize12pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (12pt
@@ -337,7 +337,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 45.
+(typearea)              on input line 46.
 
 (/usr/share/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2018/03/30 v3.25 KOMA-Script package (end user interf
@@ -893,7 +893,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count284
 \LT@p@ftn=\toks25
 )
-Class scrartcl Info: longtable captions redefined on input line 99.
+Class scrartcl Info: longtable captions redefined on input line 100.
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -1047,11 +1047,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip76
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 140.
-Package hyperref Info: Option `breaklinks' set `true' on input line 140.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 140.
-Package hyperref Info: Option `plainpages' set `false' on input line 140.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 140.
+Package hyperref Info: Option `colorlinks' set `true' on input line 141.
+Package hyperref Info: Option `breaklinks' set `true' on input line 141.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 141.
+Package hyperref Info: Option `plainpages' set `false' on input line 141.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 141.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
@@ -2343,12 +2343,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <IMAGE/luh_logo.png, id=36, 1134.03674pt x 327.02174pt>
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 18.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 20.
 (pdftex.def)             Requested size: 325.91344pt x 93.98059pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 20.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./IMAGE/luh_logo.png>] (./
@@ -2357,9 +2357,9 @@ main.toc)
 \openout4 = `main.toc'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 [1])
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 6.
@@ -2675,15 +2675,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 20A5FE2E35DEE95E52985373D52E3C82;504.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 4867B2DD6E121AFCC7A896970ECC5EDE;513
+(rerunfilecheck)             After:  20A5FE2E35DEE95E52985373D52E3C82;504.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 25162 strings out of 492642
- 495951 string characters out of 6135567
- 661167 words of memory out of 5000000
- 28785 multiletter control sequences out of 15000+600000
+ 25163 strings out of 492642
+ 495966 string characters out of 6135567
+ 661239 words of memory out of 5000000
+ 28786 multiletter control sequences out of 15000+600000
  549265 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,24n,83p,9104b,988s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2700,7 +2707,7 @@ fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/cm-super/sfrm1200.pfb>
-Output written on main.pdf (14 pages, 2740762 bytes).
+Output written on main.pdf (14 pages, 2740830 bytes).
 PDF statistics:
  374 PDF objects out of 1000 (max. 8388607)
  284 compressed objects within 3 object streams
