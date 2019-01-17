@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.12.17)  8 JAN 2019 17:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.1.14)  17 JAN 2019 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1177,20 +1177,20 @@ File: IMAGE/luh_logo.png Graphic file (type png)
 Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 191.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
  [9 <./IMAGE/Versuch2Plot2_all.pdf>]
-<IMAGE/both-2-450-5-1.png, id=271, 963.6pt x 481.8pt>
-File: IMAGE/both-2-450-5-1.png Graphic file (type png)
-<use IMAGE/both-2-450-5-1.png>
-Package pdftex.def Info: IMAGE/both-2-450-5-1.png  used on input line 203.
+<IMAGE/both-2-450-5-1-c.png, id=271, 963.6pt x 481.8pt>
+File: IMAGE/both-2-450-5-1-c.png Graphic file (type png)
+<use IMAGE/both-2-450-5-1-c.png>
+Package pdftex.def Info: IMAGE/both-2-450-5-1-c.png  used on input line 203.
 (pdftex.def)             Requested size: 434.55125pt x 217.27115pt.
-<IMAGE/2-pht.png, id=273, 963.6pt x 481.8pt>
-File: IMAGE/2-pht.png Graphic file (type png)
-<use IMAGE/2-pht.png>
-Package pdftex.def Info: IMAGE/2-pht.png  used on input line 215.
+<IMAGE/2-pht-c.png, id=273, 963.6pt x 481.8pt>
+File: IMAGE/2-pht-c.png Graphic file (type png)
+<use IMAGE/2-pht-c.png>
+Package pdftex.def Info: IMAGE/2-pht-c.png  used on input line 215.
 (pdftex.def)             Requested size: 434.55125pt x 217.27115pt.
-<IMAGE/2-pmt.png, id=275, 963.6pt x 481.8pt>
-File: IMAGE/2-pmt.png Graphic file (type png)
-<use IMAGE/2-pmt.png>
-Package pdftex.def Info: IMAGE/2-pmt.png  used on input line 224.
+<IMAGE/2-pmt-c.png, id=275, 963.6pt x 481.8pt>
+File: IMAGE/2-pmt-c.png Graphic file (type png)
+<use IMAGE/2-pmt-c.png>
+Package pdftex.def Info: IMAGE/2-pmt-c.png  used on input line 224.
 (pdftex.def)             Requested size: 434.55125pt x 217.27115pt.
 
 Overfull \hbox (11.74988pt too wide) in paragraph at lines 210--231
@@ -1201,7 +1201,7 @@ File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
 Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 232.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
-[10 <./IMAGE/both-2-450-5-1.png>]
+[10 <./IMAGE/both-2-450-5-1-c.png (PNG copy)>]
 Overfull \vbox (27.2089pt too high) has occurred while \output is active []
 
 File: IMAGE/luh_logo.png Graphic file (type png)
@@ -1209,7 +1209,7 @@ File: IMAGE/luh_logo.png Graphic file (type png)
 Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 232.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 
-[11 <./IMAGE/2-pht.png> <./IMAGE/2-pmt.png>]
+[11 <./IMAGE/2-pht-c.png (PNG copy)> <./IMAGE/2-pmt-c.png (PNG copy)>]
 <IMAGE/3dtomo.png, id=288, 210.3057pt x 193.9245pt>
 File: IMAGE/3dtomo.png Graphic file (type png)
 <use IMAGE/3dtomo.png>
@@ -1246,7 +1246,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
  25305 strings out of 492639
- 498430 string characters out of 6135496
+ 498460 string characters out of 6135497
  663758 words of memory out of 5000000
  28927 multiletter control sequences out of 15000+600000
  549265 words of font info for 90 fonts, out of 8000000 for 9000
@@ -1265,7 +1265,7 @@ fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/cm-super/sfrm1200.pfb>
-Output written on main.pdf (14 pages, 2741555 bytes).
+Output written on main.pdf (14 pages, 2707642 bytes).
 PDF statistics:
  389 PDF objects out of 1000 (max. 8388607)
  299 compressed objects within 3 object streams
