@@ -11,11 +11,11 @@ Das dreidimensionale Präparat wird ebenenweise durch zweidimensionale Schnitte 
 \section{Scanning Laser Optical Tomography}
 
 \subsection{Radontransformation}
-Bei allen auf Computertomographie basierenden Verfahren ist die Radontransformation die mathematische Grundlage zur Nutzung des integrierten Signals für eine $3D-$Darstellung. Dabei wird das integrierte Signal durch Durchleuchten des Präparats aufgenommen.
+Bei allen auf Computertomographie basierenden Verfahren ist die Radontransformation die mathematische Grundlage zur Nutzung des integrierten Signals für eine 3D-Darstellung. Dabei wird das integrierte Signal durch Durchleuchten des Präparats aufgenommen.
 
-Die Strahlen werden hierfür in Zylinderkoordinaten durch eine Schar mit Laufparameter s und parametrisiert:
+Die Strahlen werden hierfür in Polarkoordinaten durch eine Schar von Geraden parametrisiert. Durch den Polarwinkel $\phi$ ist die Richtung der Strahlen und durch $s$ wird der \glqq Radius \grqq{} festgelegt. Weiterhin wird durch $\rho$ der senkrechte Abstand von der Geraden, die im Winkel $\phi$ durch den Ursprung geht, festgelegt, wodurch die Schar der Strahlen parametrisiert wird.  
 \begin{equation}
-lin_{p,q}(s) = \begin{pmatrix}
+lin_{\rho,\phi}(s) = \begin{pmatrix}
 \cos(\phi) & -\sin(\phi)  \\
 \sin(\phi) & \cos(\phi) \\
 \end{pmatrix}
@@ -32,14 +32,15 @@ s \\
 \end{equation}
 
 %\begin{minipage}{\linewidth}
-\begin{figure}[H]
+\begin{figure}
 	\centering
 \includegraphics[width=0.6\linewidth]{IMAGE/radon.png}
-	\caption{Graphische Darstellung der Radontransformation \cite{slot_paper}}
+	\caption{Graphische Darstellung der Radontransformation: Parametrisierung eines Strahls $lin_{\rho,\phi}(s)$ in Polarkoordinaten, wobei $s$ dem Radius und $\phi$ der Polarwinkel ist. Die Schar an Strahlen wird durch $\rho$ parametrisiert.
+Das Präparat wird durch die rote Fläche $f(x,y)$ dargestellt und hinter dem Präparat ist das integrierte Signal über die verschiedenen Strahlen der Schar dargestellt, die zusammengenommen die Radontransformierte $R(\rho, \phi)$ ergeben \cite{slot_paper}.}
 	\label{fig:radon}
 \end{figure}
 
-Für eine zweidimensionale Funktion $f(x,y)$ ist nun die Radontransformierte das integrierte Signal über den parametrisierten Weg durch das Präparat:
+Für eine zweidimensionale Funktion $f(x,y)$ ist die Radontransformierte das integrierte Signal über den parametrisierten Weg durch das Präparat:
 
 \begin{equation}
 R(\rho,\phi) = \int_{- \infty}^{\infty} f(lin_{p,q}(s)) \,\mathrm{d}s
@@ -50,20 +51,20 @@ R(\rho,\phi) = \int_{- \infty}^{\infty} f(lin_{p,q}(s)) \,\mathrm{d}s
 \end{pmatrix} \,\mathrm{d}s
 \end{equation}
 
-Entscheidend für die Nutzung bei der Tomographie ist die Invertierbarkeit der Radontransformierten $R(\rho,\phi)$, denn dies ermöglicht die Rekonstruktion der ursprünglichen Funktion $f(x,y)$, also die Rekonstruktion des Präparates \cite{slot_paper}.
+Entscheidend für die Nutzung der Tomographie ist die Invertierbarkeit der Radontransformierten $R(\rho,\phi)$, denn dies ermöglicht die Rekonstruktion der ursprünglichen Funktion $f(x,y)$, also die Rekonstruktion des Präparates \cite{slot_paper}.
 %\end{minipage}
 
 \subsection{Funktionsweise}
-\begin{minipage}{\linewidth}
-SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf die Mitte des Präparates fokussierten Laser abläuft. Das Präparat muss \glqq aufgeklart\grqq sein, um Streuung beim Übergang zwischen Präparat und Träger des Präparats zu verringern und eine höhere Transmission zu erreichen. Hierzu wird Wasser oder Glycerin genutzt, da dieses einen ähnlichen Brechungsindex wie organische Präparate haben. Das transmittierte Laserlicht wird von einer Photodiode hinter der Probenkammer detektiert. Um eine Rekonstruktion durchführen zu können sind Aufnahmen des Präparats von verschiedenen Richtungen aus nötig, Hintergrund ist die Radontransformation. Diese verschiedenen Aufnahmen werden durch einen Motor ermöglicht der die Kapillare und damit das Präparat dreht. Weiterhin regt das Laserlicht das Präparat zur Fluoreszenz an, welches mittels plankovexen Linsen mit dazwischen liegendem Fluoreszenz-Filter gesammelt und auf den sensitiven Photomuliplier (PMT) geleitet wird \cite{Anleitung}.\\
+%\begin{minipage}{\linewidth}
+SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf die Mitte des Präparates fokussierten Laser ablenkt und somit die Probe abrastert. Das Präparat muss optisch transparent sein, um Streuung innerhalb des Präparats zu verringern und eine höhere Transmission zu erreichen. Hierzu werden Glycerin oder ähnliche Lösungsmittel genutzt, da diese einen ähnlichen Brechungsindex wie feste organische Bestandteile haben. Das transmittierte Laserlicht wird von einer Photodiode hinter der Probenkammer detektiert. Um eine Rekonstruktion durchführen zu können sind Aufnahmen des Präparats von verschiedenen Richtungen nötig. Diese verschiedenen Aufnahmen werden durch einen Motor ermöglicht der die Kapillare und damit das Präparat dreht. Weiterhin regt das Laserlicht das Präparat zur Fluoreszenz an. Dieses Fluoreszenzlicht wird mittels plankovexen Linsen mit dazwischen liegendem Fluoreszenz-Filter gesammelt und auf den sensitiven Photomuliplier (PMT) geleitet \cite{Anleitung}.\\
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
-\includegraphics[width=0.6\linewidth]{IMAGE/slot_schema.png}
-	\caption{Schema eines scannenden laseroptischen Tomographen (SLOT) \cite{slot_paper}}
+\includegraphics[width=0.8\linewidth]{IMAGE/slot_schema.png}
+	\caption{Schema eines scannenden laseroptischen Tomographen (SLOT) \cite{slot_paper}.}
 	\label{fig:schema}
 \end{figure} 
-\end{minipage}
+%\end{minipage}
 
 %%%nopagebreak (gehört zusammen)
  \nopagebreak
@@ -77,7 +78,7 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1.0\linewidth]{IMAGE/versuchsaufbau.png}
-	\caption{Versuchsaufbau \cite{Anleitung}}
+	\caption{Versuchsaufbau: Der gesamte Versuchsaufbau befindet sich auf einer optischen Platte, um Störungen durch Vibration zu verringern. Weiterhin ist die Kompaktheit des Versuchsaufbaus zu sehen \cite{Anleitung}.}
 	\label{fig:versuchsaufbau}
 \end{figure} 
 
@@ -102,7 +103,7 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 \subcaption[c]{Filterrad und Photomuliplier (PMT)}
 \end{subfigure}
 
-\caption{Trennung der Laserkonfiguration vom restlichen Versuchsaufbau \cite{Anleitung}}
+\caption{Trennung der Laserkonfiguration vom restlichen Versuchsaufbau \cite{Anleitung}.}
 \end{figure}
 %%%%%%%%%%%%%%%
 \clearpage
@@ -117,8 +118,8 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 
 \section{Ergebnisse}
 \subsection{Auflösungsvermögen}
-Der Kontrast in Abhängigkeit von der horizontalen und vertikalen Auflösung wurde für verschiedene Fokussierungen, Strahlendurchmesser und Wellenlängen des Lasers gemessen. Dadurch ergibt sich die Modulationsübertragungsfunktion.\\ 
-Bei allen Messungen wurde die Dunkelaufnahme von der normalen abgezogen, um ein Rauschen herauszurechnen.\\
+Der Kontrast wurde für verschiedene Fokussierungen, Strahlendurchmesser und Wellenlängen des Lasers mithilfe eines USAF-Targets gemessen. Dadurch ergibt sich die Modulationsübertragungsfunktion.\\ 
+Bei allen Messungen wurde die Dunkelaufnahme von der Abbildung des Targets abgezogen, um ein Rauschen herauszurechnen.\\
 Für geringe Auflösung wurde die Modulationsübertragungsfunktion  in Abhängikeit zur horizontalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2h1} und zur vertikalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2v1} dargestellt.\\
 \end{minipage}
 
