@@ -230,7 +230,6 @@ $d_\text{Strahl} = 5 \si{mm}$, Kontrast angepasst}
 \end{figure}
 \end{minipage}
 
-\begin{minipage}{\linewidth}
 Mit dem ImageJ-Plugin \glqq Volume Viewer\grqq \, ist es nach der Rekonstruktion möglich verschiedene Ansichten auf das Heuschreckengehirn zu generieren. Ein mögliche Ansicht ist in Abbildung \ref{fig:3d} dargestellt.
 
 \begin{figure}[H]
@@ -240,11 +239,36 @@ Mit dem ImageJ-Plugin \glqq Volume Viewer\grqq \, ist es nach der Rekonstruktion
 	\label{fig:3d}
 \end{figure}
 
-\subsubsection{Analyse}
-Wichtig für die Auswertung dieser Messung war, dass die Drehachse der Probe nicht präzessiert, was durch die Justage am Aufbau nicht ganz vermieden werden konnte.
-Die Achse wandert folglich circa 4 Pixel in horizontaler Richtung.
 
-\end{minipage}
+\subsubsection{Schwiereigkeiten bei der Versuchsdurchführung}
+Zum Einen haben wir zum Einfädeln der Laser in eine Glasfaser das Verfahren Beamwalk benutzt. Da dies aber sehr lange gedauert hat haben wir es darum ergänzt, dass man beim korrigieren der Spiegel immer ein bisschen weiter dreht als das Maximum der Intensität.
+Das haben wir gemacht, da der normale Beamwalk das absolute Maximum nur nach unendlich vielen Schritten erreicht.
+Wenn man aber die Schritte über das Maximum hinaus macht, dann kommt man schneller zum Maximum, kann es jedoch je nach Schrittgröße nicht erreichen, da man es überspringt.
+Ab diesem Punkt führt man wieder den normalen Beamwalk durch.
+
+Man kann unser Verfahren vergleichen mit einer alternierenden Reihe, die schneller konvergiert, als wenn man den Betrag der Reihenglieder betrachten würde.
+
+Eine weitere Schwierigkeit ist bei den Messungen mit sich drehender Probe aufgetreten.
+Man musste die Drehachse genau senkrecht positionieren, damit sie nicht präzessiert.
+Dies konnten wir durch unsere Justage und die limitierte Genauigkeit der direkten Bildanzeige nicht ganz verhindern.
+In der Auswertung konnten wir dann leider auch nur die mittlere Schieflage korrigieren.
+
+In der Theorie sollte jedoch auch eine Korrektur der Präzession nach der Aufnahme noch möglich sein.
+Dazu müsste man jedes Bild einer 360°-Aufnahme um den richtigen Betrag drehen, den man mit einem Sinus berechnen könnte, wenn man die maximale Abweichung während der Präzession kennt.
+
+In unserem Fall wanderte die Achse circa 4 Pixel in horizontaler Richtung, was für unser Ergebnis noch in Ordnung war.
+
+\subsubsection{Analyse}
+Wie erwartet lassen sich in den Aufnahmen mit dem PMT die inneren Strukturen besser erkennen, da hier die Fluoreszenz aufgenommen wurde.
+In Abbildung \ref{fig:both-pmt} kann man außerdem sehen, dass verschiedene Wellenlängen unterschiedliche Bereiche verschieden stark zum Fluoreszieren bringen.
+
+Das unser Meinung nach beste Ergebnis konnten wir beim PMT mit der Kombination des $520\si{nm}$-Lasers und dem $(676 \pm 29)\si{nm}$-Filter erzeugen.
+Deshalb ist dies nochmal mit einer 3-dimensionalen Ansicht des gesamten Heuschreckengehirns abgebildet.
+
+Wir hatten kein Problem mit zu starker Absorption, wie sie nach dem Paper ,,Dreidimensionale und effiziente Erfassung mesoskopischer Proben'' von Lorbeer bei einer zu großen Probe auftritt.
+
+Insgesamt sind wir mit den Ergebnissen unserer Messung zufrieden.
+
 
 %\listoftables
 \clearpage

@@ -1,4 +1,4 @@
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Einleitung}{2}{section.2}
 \contentsline {section}{\numberline {2}Scanning Laser Optical Tomography}{2}{section.3}
 \contentsline {subsection}{\numberline {2.1}Radontransformation}{2}{subsection.4}
@@ -9,4 +9,5 @@
 \contentsline {subsection}{\numberline {3.2}Aufnahmen von Heuschreckengehirnen}{10}{subsection.22}
 \contentsline {subsubsection}{\numberline {3.2.1}Korrektur der Schieflage}{10}{subsubsection.23}
 \contentsline {subsubsection}{\numberline {3.2.2}Darstellung der Rekonstruktion}{11}{subsubsection.24}
-\contentsline {subsubsection}{\numberline {3.2.3}Analyse}{13}{subsubsection.29}
+\contentsline {subsubsection}{\numberline {3.2.3}Schwiereigkeiten bei der Versuchsdurchf\IeC {\"u}hrung}{13}{subsubsection.29}
+\contentsline {subsubsection}{\numberline {3.2.4}Analyse}{14}{subsubsection.30}
