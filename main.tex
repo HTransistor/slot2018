@@ -13,7 +13,7 @@ Das dreidimensionale Präparat wird ebenenweise durch zweidimensionale Schnitte 
 \subsection{Radontransformation}
 Bei allen auf Computertomographie basierenden Verfahren ist die Radontransformation die mathematische Grundlage zur Nutzung des integrierten Signals für eine 3D-Darstellung. Dabei wird das integrierte Signal durch Durchleuchten des Präparats aufgenommen.
 
-Die Strahlen werden hierfür in Polarkoordinaten durch eine Schar von Geraden parametrisiert. Durch den Polarwinkel $\phi$ ist die Richtung der Strahlen und durch $s$ wird der \glqq Radius \grqq{} festgelegt. Weiterhin wird durch $\rho$ der senkrechte Abstand von der Geraden, die im Winkel $\phi$ durch den Ursprung geht, festgelegt, wodurch die Schar der Strahlen parametrisiert wird.  
+Die Strahlen werden hierfür in Polarkoordinaten durch eine Schar von Geraden parametrisiert. Durch den Polarwinkel $\phi$ ist die Richtung der Strahlen und durch $s$ wird der \glqq Radius\grqq{} festgelegt. Weiterhin wird durch $\rho$ der senkrechte Abstand von der Geraden, die im Winkel $\phi$ durch den Ursprung geht, festgelegt, wodurch die Schar der Strahlen parametrisiert wird.  
 \begin{equation}
 lin_{\rho,\phi}(s) = \begin{pmatrix}
 \cos(\phi) & -\sin(\phi)  \\
@@ -189,9 +189,9 @@ $$\alpha = \arcsin \left( \frac{\Delta{x_{\text{oben}}} - \Delta{x_{\text{unten}
 Hier entspricht $y_\text{max}$ der Anzahl der Pixel auf der $y$-Achse im Bild.
 $\Delta{x_\text{oben}}$ und $\Delta{x_\text{unten}}$ beziehen sich hierbei auf die äußersten Pixel am Bildrand oben und unten.
 
-Um $\Delta{x_{\text{oben}}}$ und $\Delta{x_{\text{unten}}}$ zu messen wurde die jeweilige Ebene mit 100 verschiedenen $x$-Achsenverschiebungen mit  \glqq tilt\grqq rekonstruiert und anschließend das beste Bild herausgesucht (Reduzierung der Ringartefakte).
+Um $\Delta{x_{\text{oben}}}$ und $\Delta{x_{\text{unten}}}$ zu messen wurde die jeweilige Ebene mit 100 verschiedenen $x$-Achsenverschiebungen mit  \glqq tilt\grqq{} rekonstruiert und anschließend das beste Bild herausgesucht (Reduzierung der Ringartefakte).
 
-Im Folgenden wurde die Aufnahme mit \glqq ImageJ\grqq um den jeweiligen Winkel gedreht und das Ergebnis wieder mit  \glqq tilt\grqq , aber dieses mal für alle Ebenen rekonstruiert.
+Im Folgenden wurde die Aufnahme mit \glqq ImageJ\grqq{} um den jeweiligen Winkel gedreht und das Ergebnis wieder mit  \glqq tilt\grqq{} , aber dieses mal für alle Ebenen rekonstruiert.
 Dabei wurde auch die mittlere $x$-Achsenverschiebung beachtet:
 $$\Delta{x} = \frac{\Delta{x_{\text{oben}}} - \Delta{x_{\text{unten}}}}{2}$$
 
@@ -230,7 +230,7 @@ $d_\text{Strahl} = 5 \text{ } \si{mm}$, Kontrast angepasst}
 \end{figure}
 \end{minipage}
 
-Mit dem ImageJ-Plugin \glqq Volume Viewer\grqq \, ist es nach der Rekonstruktion möglich verschiedene Ansichten auf das Heuschreckengehirn zu generieren. Ein mögliche Ansicht ist in Abbildung \ref{fig:3d} dargestellt.
+Mit dem ImageJ-Plugin \glqq Volume Viewer\grqq{} , ist es nach der Rekonstruktion möglich verschiedene Ansichten auf das Heuschreckengehirn zu generieren. Ein mögliche Ansicht ist in Abbildung \ref{fig:3d} dargestellt.
 
 \begin{figure}[H]
 \centering
