@@ -9,4 +9,9 @@
 \contentsline {subsection}{\numberline {3.2}Aufnahmen von Heuschreckengehirnen}{10}{subsection.22}% 
 \contentsline {subsubsection}{\numberline {3.2.1}Korrektur der Schieflage}{10}{subsubsection.23}% 
 \contentsline {subsubsection}{\numberline {3.2.2}Darstellung der Rekonstruktion}{11}{subsubsection.24}% 
+<<<<<<< HEAD
 \contentsline {subsubsection}{\numberline {3.2.3}Analyse}{13}{subsubsection.29}% 
+=======
+\contentsline {subsubsection}{\numberline {3.2.3}Schwiereigkeiten bei der Versuchsdurchf\IeC {\"u}hrung}{13}{subsubsection.29}% 
+\contentsline {subsubsection}{\numberline {3.2.4}Analyse}{14}{subsubsection.30}% 
+>>>>>>> c8e6795fc226308d2a0b164cba3236a4b7487fe5
