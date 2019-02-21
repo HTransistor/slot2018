@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.18)  21 FEB 2019 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.18)  21 FEB 2019 16:32
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -1271,7 +1272,14 @@ File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
 Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 274.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [14] (./main.lof)
+ [14] (./main.lof
+Overfull \hbox (1.15561pt too wide) in paragraph at lines 16--16
+ [][] [][][]\OT1/cmr/m/n/12 3-dimensionale An-sicht ei-ner PMT-Aufnahme: $\OML/
+cmm/m/it/12 ^^U \OT1/cmr/m/n/12 = 520[][]$ mit $\OML/cmm/m/it/12 ^^U[] \OT1/cmr
+/m/n/12 = 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -1294,7 +1302,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 287.
 Here is how much of TeX's memory you used:
  25892 strings out of 492616
  509797 string characters out of 6135177
- 690263 words of memory out of 5000000
+ 691263 words of memory out of 5000000
  29528 multiletter control sequences out of 15000+600000
  549265 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1312,7 +1320,7 @@ fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/cm-super/sfrm1200.pfb>
-Output written on main.pdf (16 pages, 2811595 bytes).
+Output written on main.pdf (16 pages, 2811609 bytes).
 PDF statistics:
  346 PDF objects out of 1000 (max. 8388607)
  273 compressed objects within 3 object streams
