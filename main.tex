@@ -4,7 +4,7 @@
 \input{titlepage.tex}
 
 \section{Einleitung}
-In diesem Versuch wird die Methode der Tomographie am Beispiel der SLOT \\ \glqq \colorcap[luh_blue]{Scanning Laser Optical Tomography}\grqq{} untersucht. Dieses ist ein spezielles dreidimensionales Tomographie-Verfahren, das mit Lasern verschiedener Wellenlängen als Kontrastmechanismen Streuung, Absorption und Fluoreszenz nutzt.\\
+In diesem Versuch wird die Methode der Tomographie am Beispiel der SLOT \\ \glqq \colorcap[luh_blue]{Scanning Laser Optical Tomography}\grqq{} untersucht. Dieses ist ein spezielles dreidimensionales Tomographie-Verfahren, das mit Lasern verschiedener Wellenlängen  Streuung, Absorption und Fluoreszenz als Kontrastmechanismen nutzt.\\
 
 Das dreidimensionale Präparat wird ebenenweise durch zweidimensionale Schnitte (Tomogramme) rekonstruiert und zu einem dreidimensionalen Bildobjekt zusammengesetzt. Das entstandene Bildobjekt ist nun vom Präparat getrennt und virtuell verfügbar. Daraus ergibt sich der Vorteil das Präparat unbeschädigt lassen zu können und dennoch die innere Struktur des Präparates zu untersuchen \cite{Anleitung}.\\
 
@@ -12,6 +12,7 @@ Das dreidimensionale Präparat wird ebenenweise durch zweidimensionale Schnitte 
 
 \subsection{Radontransformation}
 Bei allen auf Computertomographie basierenden Verfahren ist die Radontransformation die mathematische Grundlage zur Nutzung des integrierten Signals für eine 3D-Darstellung. Dabei wird das integrierte Signal durch Durchleuchten des Präparats aufgenommen.
+\textcolor{red}{Letzter Satz nicht falsch aber ausführlicher.}
 
 Die Strahlen werden hierfür in Polarkoordinaten durch eine Schar von Geraden parametrisiert. Durch den Polarwinkel $\phi$ ist die Richtung der Strahlen und durch $s$ wird der \glqq Radius\grqq{} festgelegt. Weiterhin wird durch $\rho$ der senkrechte Abstand von der Geraden, die im Winkel $\phi$ durch den Ursprung geht, festgelegt, wodurch die Schar der Strahlen parametrisiert wird.  
 \begin{equation}
@@ -61,7 +62,7 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 \begin{figure}
 	\centering
 \includegraphics[width=0.8\linewidth]{IMAGE/slot_schema.png}
-	\caption{Schema eines scannenden laseroptischen Tomographen (SLOT) \cite{slot_paper}.}
+	\caption{Schema eines scannenden laseroptischen Tomographen (SLOT) \cite{slot_paper}.\textcolor{red}{Ausführlicher, insbesondere soll die Abbildung für vollständig aus der Bildunterschrift erklärbar sein. Der schematische Kollimator ist im Versuchsaufbau ein Bündel von Glasfasern, das an die Unterseite der Küvette angebracht ist und mit der Form eine ähnliche Fläche ausfüllt wie die PMT-Diode, sodass möglichst viel der Diode ausgeluchtet werden kann. Der Kollimator wird genutzt, um das gesammelte Licht senkrecht auf die dieelektrischen Farbfilter zu leiten, denn nur dann sind die angegebenen Werte des Herstellers verlässlich (sonstige Abweichung der Reflexion und Transmission in Abhängigkeit vom Einfallswinkel nach Fresnel-Gesetz}}
 	\label{fig:schema}
 \end{figure} 
 %\end{minipage}
