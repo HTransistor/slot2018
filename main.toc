@@ -11,3 +11,6 @@
 \contentsline {subsubsection}{\numberline {3.2.2}Darstellung der Rekonstruktion}{11}{subsubsection.24}% 
 \contentsline {subsubsection}{\numberline {3.2.3}Schwiereigkeiten bei der Versuchsdurchf\IeC {\"u}hrung}{13}{subsubsection.29}% 
 \contentsline {subsubsection}{\numberline {3.2.4}Analyse}{14}{subsubsection.30}% 
+\contentsline {section}{\numberline {4}Diskussion}{14}{section.31}% 
+\contentsline {section}{\numberline {5}Fazit}{15}{section.32}% 
+\contentsline {section}{\numberline {6}Ausblick}{15}{section.33}% 
