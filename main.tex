@@ -96,8 +96,7 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 \begin{subfigure}[b]{0.5\linewidth}
 \includegraphics[width=0.98\linewidth]{IMAGE/einkopplung.jpeg}
 \label{fig:einkopplung}
-	\subcaption{Einkopplung der Laserdiode \textcolor{red}{Ausführlicher}}
-
+	\subcaption{Einkopplung der Laserdiode \\ \textcolor{red}{Ausführlicher}}
 \end{subfigure}
 \begin{subfigure}[b]{0.5\linewidth}
 \includegraphics[width=0.98\linewidth]{IMAGE/pmt.png}\label{fig:pmt}
@@ -140,13 +139,14 @@ Für geringe Auflösung wurde die Modulationsübertragungsfunktion  in Abhängik
 	\label{fig:Versuch2_Plot2v1}
 \end{figure} 
 
+\end{minipage}
+
+\begin{minipage}{\linewidth}
 Ein erhöhter Strahlendurchmesser verbessert den Kontrast.\\
 Bei geringer Auflösung ist der Kontrast für eine höhere Wellenlänge höher.\\
 Der Kontrast ist in horizontaler und vertikaler Richtung von vergleichbarer Höhe.\\
 Weiterhin sinkt der Kontrast rapide, falls ohne Fokussierung gemessen wird.
-\end{minipage}
 
-\begin{minipage}{\linewidth}
 Für hohe Auflösung ist diese zur horizontalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2h2} und zur vertikalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2v2} dargestellt.
 \begin{figure}[H]
 	\centering
@@ -154,6 +154,7 @@ Für hohe Auflösung ist diese zur horizontalen Auflösung in Abbildung \ref{fig
 	\caption{Kontrast bei hoher Auflösung (horizontal)}
 	\label{fig:Versuch2_Plot2h2}
 \end{figure} 
+\end{minipage}
 
 \begin{figure}[H]
 	\centering
@@ -162,7 +163,6 @@ Für hohe Auflösung ist diese zur horizontalen Auflösung in Abbildung \ref{fig
 	\label{fig:Versuch2_Plot2v2}
 \end{figure} 
 Auch bei hoher Auflösung verbessert ein erhöhter Strahlendurchmesser  den Kontrast. Zwar ist der Kontrast bei einer geringen Auflösung bei einer höheren Wellenlänge höher, aber ab etwa einer Auflösung von $20 \frac{lp}{mm}$ erhöht eine kleine Wellenlänge den Kontrast.
-\end{minipage}
 
 Weiterhin sind die Modulationsübertragungsfunktionen für hohe Auflösungen in Abbildung \ref{fig:Versuch2_Plot2_all} dargestellt, um diese untereinander besser vergleichen zu können.
 
@@ -219,6 +219,7 @@ Es ist erkennbar, dass das Bild mit der längeren Wellenlänge feinere Strukture
 \caption{Rekonstruktion: $\lambda = 520 \text{ } \si{nm}$ links, $\lambda = 450 \text{ } \si{nm}$ rechts; Photodiode, $\Delta{t} = 1 \text{ } \si{s}$, $\lambda_\text{Filter} = (520 \pm 36) \text{ } \si{nm}$, $d_\text{Strahl} = 5 \text{ } \si{mm}$, Kontrast angepasst}
 	\label{fig:both-pht}
 \end{figure}
+\end{minipage}
 
 In Abbildung \ref{fig:both-pmt} wurden Bilder des PMT vom jeweiligen Fluoreszenzlicht der Laser rekonstruiert. Im Vergleich ist festzustellen, dass bei $\lambda= 520 \text{ } \si{nm}$ die Auflösung höher ist.
 
@@ -230,7 +231,6 @@ In Abbildung \ref{fig:both-pmt} wurden Bilder des PMT vom jeweiligen Fluoreszenz
 $d_\text{Strahl} = 5 \text{ } \si{mm}$, Kontrast angepasst}
 	\label{fig:both-pmt}
 \end{figure}
-\end{minipage}
 
 Mit dem ImageJ-Plugin \glqq Volume Viewer\grqq{} , ist es nach der Rekonstruktion möglich verschiedene Ansichten auf das Heuschreckengehirn zu generieren. Ein mögliche Ansicht ist in Abbildung \ref{fig:3d} dargestellt.
 

@@ -6,11 +6,11 @@
 \contentsline {subsection}{\numberline {2.3}Versuchsaufbau}{5}{subsection.10}% 
 \contentsline {section}{\numberline {3}Ergebnisse}{7}{section.15}% 
 \contentsline {subsection}{\numberline {3.1}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{7}{subsection.16}% 
-\contentsline {subsection}{\numberline {3.2}Aufnahmen von Heuschreckengehirnen}{10}{subsection.22}% 
-\contentsline {subsubsection}{\numberline {3.2.1}Korrektur der Schieflage}{10}{subsubsection.23}% 
-\contentsline {subsubsection}{\numberline {3.2.2}Darstellung der Rekonstruktion}{11}{subsubsection.24}% 
-\contentsline {subsubsection}{\numberline {3.2.3}Schwiereigkeiten bei der Versuchsdurchf\IeC {\"u}hrung}{13}{subsubsection.29}% 
-\contentsline {subsubsection}{\numberline {3.2.4}Analyse}{14}{subsubsection.30}% 
-\contentsline {section}{\numberline {4}Diskussion}{14}{section.31}% 
-\contentsline {section}{\numberline {5}Fazit}{15}{section.32}% 
-\contentsline {section}{\numberline {6}Ausblick}{15}{section.33}% 
+\contentsline {subsection}{\numberline {3.2}Aufnahmen von Heuschreckengehirnen}{11}{subsection.22}% 
+\contentsline {subsubsection}{\numberline {3.2.1}Korrektur der Schieflage}{11}{subsubsection.23}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Darstellung der Rekonstruktion}{12}{subsubsection.24}% 
+\contentsline {subsubsection}{\numberline {3.2.3}Schwiereigkeiten bei der Versuchsdurchf\IeC {\"u}hrung}{15}{subsubsection.29}% 
+\contentsline {subsubsection}{\numberline {3.2.4}Analyse}{16}{subsubsection.30}% 
+\contentsline {section}{\numberline {4}Diskussion}{16}{section.31}% 
+\contentsline {section}{\numberline {5}Fazit}{16}{section.32}% 
+\contentsline {section}{\numberline {6}Ausblick}{17}{section.33}% 
