@@ -11,8 +11,14 @@ Das dreidimensionale Präparat wird ebenenweise durch zweidimensionale Schnitte 
 \section{Scanning Laser Optical Tomography}
 
 \subsection{Radontransformation}
-Bei allen auf Computertomographie basierenden Verfahren ist die Radontransformation die mathematische Grundlage zur Nutzung des integrierten Signals für eine 3D-Darstellung. Dabei wird das integrierte Signal durch Durchleuchten des Präparats aufgenommen.
-\textcolor{red}{Letzter Satz nicht falsch aber ausführlicher.}
+Bei allen auf Computertomographie basierenden Verfahren ist die Radontransformation die mathematische Grundlage zur Nutzung des integrierten Signals für eine 3D-Darstellung.
+Beim Durchleuchten des Präparats führt jegliche Wechselwirkung mit dem Präparat zu einer veränderten Intensität des eingestrahlten Lichtes.
+Nimmt man hinter dem Präparat dieses Signal für eine festen Einstrahlungswinkel $\phi$ auf, so erhält man eine über die Lauflinie des Strahls integrierte Signalabschwächung.
+Diese bildet einen Funktionswert der Radontransformierten $R(\rho,\phi)$ zu einem festen $\phi$.
+Durch Abrastern entlang des Präparats, also Variation von $\rho$, erhält dann die gesamte Radontransformierte die in direktem Verhältnis zum Tomogramm der gescannten Ebene des Präparats steht.
+Scannt man das Präparat zusätzlich in $z$-Richtung, so erhält man Tomogramme, die zusammengenommen zu einem Tomographen und damit zu einem 3D-Objekt zusammengeführt werden können, das auch Informationen über das Innere des Präparats preisgibt.
+
+%DONE: \textcolor{red}{Letzter Satz nicht falsch aber ausführlicher.}
 
 Die Strahlen werden hierfür in Polarkoordinaten durch eine Schar von Geraden parametrisiert. Durch den Polarwinkel $\phi$ ist die Richtung der Strahlen und durch $s$ wird der \glqq Radius\grqq{} festgelegt. Weiterhin wird durch $\rho$ der senkrechte Abstand von der Geraden, die im Winkel $\phi$ durch den Ursprung geht, festgelegt, wodurch die Schar der Strahlen parametrisiert wird.  
 \begin{equation}
@@ -57,25 +63,38 @@ Entscheidend für die Nutzung der Tomographie ist die Invertierbarkeit der Radon
 
 \subsection{Funktionsweise}
 %\begin{minipage}{\linewidth}
-SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf die Mitte des Präparates fokussierten Laser ablenkt und somit die Probe abrastert. Das Präparat muss optisch transparent sein, um Streuung innerhalb des Präparats zu verringern und eine höhere Transmission zu erreichen. Hierzu werden Glycerin oder ähnliche Lösungsmittel genutzt, da diese einen ähnlichen Brechungsindex wie feste organische Bestandteile haben. Das transmittierte Laserlicht wird von einer Photodiode hinter der Probenkammer detektiert. Um eine Rekonstruktion durchführen zu können sind Aufnahmen des Präparats von verschiedenen Richtungen nötig. Diese verschiedenen Aufnahmen werden durch einen Motor ermöglicht der die Kapillare und damit das Präparat dreht. Weiterhin regt das Laserlicht das Präparat zur Fluoreszenz an. Dieses Fluoreszenzlicht wird mittels plankovexen Linsen mit dazwischen liegendem Fluoreszenz-Filter gesammelt und auf den sensitiven Photomuliplier (PMT) geleitet \cite{Anleitung}.\\
+Die Funktionsweise von SLOT wird anhand des Schemas in Abbildung \ref{fig:schema} beschrieben.
+SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf die Mitte des Präparates fokussierten Laser ablenkt und somit die Probe abrastert.
+Das Präparat muss optisch transparent sein, um Streuung innerhalb des Präparats zu verringern und eine höhere Transmission zu erreichen.
+Hierzu werden Glycerin oder ähnliche Lösungsmittel genutzt, da diese einen ähnlichen Brechungsindex wie feste organische Bestandteile haben.
+Das transmittierte Laserlicht wird von einer Photodiode hinter der Probenkammer detektiert.
+Um eine Rekonstruktion durchführen zu können sind Aufnahmen des Präparats von verschiedenen Richtungen nötig.
+Diese verschiedenen Aufnahmen werden durch einen Motor ermöglicht der die Kapillare und damit das Präparat dreht.
+Weiterhin regt das Laserlicht das Präparat zur Fluoreszenz an.
+Dieses Fluoreszenzlicht wird mittels plankovexen Linsen mit dazwischen liegendem Fluoreszenz-Filter gesammelt und auf den sensitiven Photomuliplier (PMT) geleitet \cite{Anleitung}.\\
 
 \begin{figure}
 	\centering
 \includegraphics[width=0.8\linewidth]{IMAGE/slot_schema.png}
-	\caption{Schema eines scannenden laseroptischen Tomographen (SLOT) \cite{slot_paper}.\textcolor{red}{Ausführlicher, insbesondere soll die Abbildung für vollständig aus der Bildunterschrift erklärbar sein. Der schematische Kollimator ist im Versuchsaufbau ein Bündel von Glasfasern, das an die Unterseite der Küvette angebracht ist und mit der Form eine ähnliche Fläche ausfüllt wie die PMT-Diode, sodass möglichst viel der Diode ausgeluchtet werden kann. Der Kollimator wird genutzt, um das gesammelte Licht senkrecht auf die dieelektrischen Farbfilter zu leiten, denn nur dann sind die angegebenen Werte des Herstellers verlässlich (sonstige Abweichung der Reflexion und Transmission in Abhängigkeit vom Einfallswinkel nach Fresnel-Gesetz}}
+	\caption{Schema eines scannenden laseroptischen Tomographen (SLOT) \cite{slot_paper}. 
+	Der schematische Kollimator ist im Versuchsaufbau ein Bündel von Glasfasern, das an die Unterseite der Küvette angebracht ist und mit der Form eine ähnliche Fläche ausfüllt wie die Photomultiplier-Diode (PMT), sodass möglichst viel der Diode ausgeleuchtet werden kann.
+	Der Nutzen des Kollimator ist das gesammelte Licht senkrecht auf die dieelektrischen Farbfilter zu leiten, denn nur dann sind die angegebenen Werte des Herstellers bezüglich der Transmission bestimmter Wellenlängen verlässlich. Ansonsten treten Abweichung der Reflexion und Transmission in Abhängigkeit vom Einfallswinkel entsprechend den Fresnelschen Formeln auf.}
+	%DONE: \textcolor{red}{Ausführlicher, insbesondere soll die Abbildung für vollständig aus der Bildunterschrift erklärbar sein.
+%Der schematische Kollimator ist im Versuchsaufbau ein Bündel von Glasfasern, das an die Unterseite der Küvette angebracht ist und mit der Form eine ähnliche Fläche ausfüllt wie die PMT-Diode, sodass möglichst viel der Diode ausgeluchtet werden kann.
+%Der Kollimator wird genutzt, um das gesammelte Licht senkrecht auf die dieelektrischen Farbfilter zu leiten, denn nur dann sind die angegebenen Werte des Herstellers verlässlich (sonstige Abweichung der Reflexion und Transmission in Abhängigkeit vom Einfallswinkel nach Fresnel-Gesetz}}
 	\label{fig:schema}
 \end{figure} 
 %\end{minipage}
 
 %%%nopagebreak (gehört zusammen)
- \nopagebreak
- \hrule height 0pt
- \pagebreak[2]
+% \nopagebreak
+% \hrule height 0pt
+% \pagebreak[2]
 %%% 
 
 \subsection{Versuchsaufbau}
 
-\begin{minipage}{\linewidth}
+%\begin{minipage}{\linewidth}
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1.0\linewidth]{IMAGE/versuchsaufbau.png}
@@ -86,11 +105,11 @@ SLOT basiert auf einem x-y-Scanner-System mit zwei Silberspiegeln, das den auf d
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1.0\linewidth]{IMAGE/scanner.jpeg}
-	\caption{Teleskop und Scanner \cite{Anleitung}. \textcolor{red}{Ausführlicher}}
+	\caption{Das Teleskop ist für die Fokussierung und ermöglicht eine gewisse Flexibilität bei der Einstellung des Strahlendurchmessers des scannenden Lichtstrahls. Weiterhin sind x- und y-Scanner, die das Abrastern des Präparats ermöglichen, zusehen. \cite{Anleitung}. \textcolor{red}{Steinheil-Tripletts}}
 	\label{fig:scanner}
 \end{figure}
 
-\end{minipage}
+%\end{minipage}
 
 \begin{figure}
 \begin{subfigure}[b]{0.5\linewidth}

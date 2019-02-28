@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.18)  25 FEB 2019 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.18)  28 FEB 2019 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1063,234 +1063,225 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 <IMAGE/radon.png, id=51, 229.85875pt x 120.45pt>
 File: IMAGE/radon.png Graphic file (type png)
 <use IMAGE/radon.png>
-Package pdftex.def Info: IMAGE/radon.png  used on input line 38.
+Package pdftex.def Info: IMAGE/radon.png  used on input line 44.
 (pdftex.def)             Requested size: 260.7334pt x 136.63622pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+File: IMAGE/luh_logo.png Graphic file (type png)
+<use IMAGE/luh_logo.png>
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 51.
+(pdftex.def)             Requested size: 45.07687pt x 13.0pt.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 66--75
 
  []
 
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 61.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 75.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
-[2]
-<IMAGE/slot_schema.png, id=70, 311.1625pt x 237.88875pt>
+[3 <./IMAGE/radon.png>]
+<IMAGE/slot_schema.png, id=78, 311.1625pt x 237.88875pt>
 File: IMAGE/slot_schema.png Graphic file (type png)
 <use IMAGE/slot_schema.png>
-Package pdftex.def Info: IMAGE/slot_schema.png  used on input line 64.
+Package pdftex.def Info: IMAGE/slot_schema.png  used on input line 78.
 (pdftex.def)             Requested size: 347.64232pt x 265.78018pt.
-
-Underfull \hbox (badness 6412) in paragraph at lines 65--65
-[][][]|\OT1/cmr/m/n/12 Sche-ma ei-nes scan-nen-den la-se-r-opti-schen To-mo-gra
--phen (SLOT)
- []
-
-<IMAGE/versuchsaufbau.png, id=73, 491.8375pt x 276.03125pt>
+<IMAGE/versuchsaufbau.png, id=81, 491.8375pt x 276.03125pt>
 File: IMAGE/versuchsaufbau.png Graphic file (type png)
 <use IMAGE/versuchsaufbau.png>
-Package pdftex.def Info: IMAGE/versuchsaufbau.png  used on input line 81.
+Package pdftex.def Info: IMAGE/versuchsaufbau.png  used on input line 100.
 (pdftex.def)             Requested size: 434.55125pt x 243.8896pt.
-<IMAGE/scanner.jpeg, id=76, 491.8375pt x 276.03125pt>
+File: IMAGE/luh_logo.png Graphic file (type png)
+<use IMAGE/luh_logo.png>
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 104.
+(pdftex.def)             Requested size: 45.07687pt x 13.0pt.
+ [4 <./IMAGE/slot_schema.png>]
+<IMAGE/scanner.jpeg, id=89, 491.8375pt x 276.03125pt>
 File: IMAGE/scanner.jpeg Graphic file (type jpg)
 <use IMAGE/scanner.jpeg>
-Package pdftex.def Info: IMAGE/scanner.jpeg  used on input line 88.
+Package pdftex.def Info: IMAGE/scanner.jpeg  used on input line 107.
 (pdftex.def)             Requested size: 434.55125pt x 243.8896pt.
-
-Overfull \hbox (11.74988pt too wide) in paragraph at lines 78--94
-$[]$ 
- []
-
-<IMAGE/einkopplung.jpeg, id=79, 276.03125pt x 491.8375pt>
+File: IMAGE/luh_logo.png Graphic file (type png)
+<use IMAGE/luh_logo.png>
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 111.
+(pdftex.def)             Requested size: 45.07687pt x 13.0pt.
+ [5 <./IMAGE/versuchsaufbau.png>]
+<IMAGE/einkopplung.jpeg, id=98, 276.03125pt x 491.8375pt>
 File: IMAGE/einkopplung.jpeg Graphic file (type jpg)
 <use IMAGE/einkopplung.jpeg>
-Package pdftex.def Info: IMAGE/einkopplung.jpeg  used on input line 97.
+Package pdftex.def Info: IMAGE/einkopplung.jpeg  used on input line 116.
 (pdftex.def)             Requested size: 212.92917pt x 379.4215pt.
-<IMAGE/pmt.png, id=80, 276.03125pt x 491.8375pt>
+<IMAGE/pmt.png, id=99, 276.03125pt x 491.8375pt>
 File: IMAGE/pmt.png Graphic file (type png)
 <use IMAGE/pmt.png>
-Package pdftex.def Info: IMAGE/pmt.png  used on input line 102.
+Package pdftex.def Info: IMAGE/pmt.png  used on input line 121.
 (pdftex.def)             Requested size: 212.92917pt x 379.4215pt.
 
-Underfull \hbox (badness 6808) in paragraph at lines 103--103
+Underfull \hbox (badness 6808) in paragraph at lines 122--122
 [][][]|\OT1/cmr/m/n/10.95 Fil-ter-rad und Pho-to-mu-li-plier (PMT)
  []
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 96--105
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 115--124
 [][] [] 
  []
 
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 107.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 128.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
-[3 <./IMAGE/radon.png>]
+[6 <./IMAGE/scanner.jpeg>]
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 107.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 128.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [4 <./IMAGE/slot_schema.png>]
-Overfull \vbox (9.77917pt too high) has occurred while \output is active []
-
-File: IMAGE/luh_logo.png Graphic file (type png)
-<use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 107.
-(pdftex.def)             Requested size: 45.07687pt x 13.0pt.
-
-[5 <./IMAGE/versuchsaufbau.png> <./IMAGE/scanner.jpeg>]
-File: IMAGE/luh_logo.png Graphic file (type png)
-<use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 109.
-(pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [6 <./IMAGE/einkopplung.jpeg> <./IMAGE/pmt.png>]
-<IMAGE/turm.png, id=110, 276.03125pt x 491.8375pt>
+ [7 <./IMAGE/einkopplung.jpeg> <./IMAGE/pmt.png>]
+<IMAGE/turm.png, id=115, 276.03125pt x 491.8375pt>
 File: IMAGE/turm.png Graphic file (type png)
 <use IMAGE/turm.png>
-Package pdftex.def Info: IMAGE/turm.png  used on input line 114.
+Package pdftex.def Info: IMAGE/turm.png  used on input line 133.
 (pdftex.def)             Requested size: 213.3635pt x 380.19449pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--125
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
 
  []
 
 
-Overfull \hbox (11.74988pt too wide) in paragraph at lines 111--126
+Overfull \hbox (11.74988pt too wide) in paragraph at lines 130--145
 []$[]$ 
  []
 
-<IMAGE/Versuch2Plot1horizontal2.pdf, id=115, 1190.28687pt x 715.47299pt>
+<IMAGE/Versuch2Plot1horizontal2.pdf, id=120, 1190.28687pt x 715.47299pt>
 File: IMAGE/Versuch2Plot1horizontal2.pdf Graphic file (type pdf)
 <use IMAGE/Versuch2Plot1horizontal2.pdf>
 Package pdftex.def Info: IMAGE/Versuch2Plot1horizontal2.pdf  used on input line
- 130.
+ 149.
 (pdftex.def)             Requested size: 434.55125pt x 261.20552pt.
-<IMAGE/Versuch2Plot1vertikal2.pdf, id=116, 824.60072pt x 500.83109pt>
+<IMAGE/Versuch2Plot1vertikal2.pdf, id=121, 824.60072pt x 500.83109pt>
 File: IMAGE/Versuch2Plot1vertikal2.pdf Graphic file (type pdf)
 <use IMAGE/Versuch2Plot1vertikal2.pdf>
 Package pdftex.def Info: IMAGE/Versuch2Plot1vertikal2.pdf  used on input line 1
-37.
+56.
 (pdftex.def)             Requested size: 434.55125pt x 263.92609pt.
 
-Overfull \hbox (11.74988pt too wide) in paragraph at lines 127--143
+Overfull \hbox (11.74988pt too wide) in paragraph at lines 146--162
 []$[]$ 
  []
 
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 144.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 163.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
-[7
+[8
 
  <./IMAGE/turm.png>]
-<IMAGE/Versuch2Plot2horizontal2.pdf, id=127, 826.7688pt x 502.99919pt>
+<IMAGE/Versuch2Plot2horizontal2.pdf, id=132, 826.7688pt x 502.99919pt>
 File: IMAGE/Versuch2Plot2horizontal2.pdf Graphic file (type pdf)
 <use IMAGE/Versuch2Plot2horizontal2.pdf>
 Package pdftex.def Info: IMAGE/Versuch2Plot2horizontal2.pdf  used on input line
- 153.
+ 172.
 (pdftex.def)             Requested size: 434.55125pt x 264.37785pt.
 
-Overfull \hbox (11.74988pt too wide) in paragraph at lines 144--158
+Overfull \hbox (11.74988pt too wide) in paragraph at lines 163--177
 []$[]$ 
  []
 
-<IMAGE/Versuch2Plot2vertikal2.pdf, id=128, 1003.83032pt x 600.5637pt>
+<IMAGE/Versuch2Plot2vertikal2.pdf, id=133, 1003.83032pt x 600.5637pt>
 File: IMAGE/Versuch2Plot2vertikal2.pdf Graphic file (type pdf)
 <use IMAGE/Versuch2Plot2vertikal2.pdf>
 Package pdftex.def Info: IMAGE/Versuch2Plot2vertikal2.pdf  used on input line 1
-61.
+80.
 (pdftex.def)             Requested size: 434.55125pt x 259.97849pt.
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 164.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 183.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
-[8 <./IMAGE/Versuch2Plot1horizontal2.pdf> <./IMAGE/Versuch2Plot1vertikal2.pdf
+[9 <./IMAGE/Versuch2Plot1horizontal2.pdf> <./IMAGE/Versuch2Plot1vertikal2.pdf
 
 pdfTeX warning: pdflatex (file ./IMAGE/Versuch2Plot1vertikal2.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 165.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 184.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [9 <./IMAGE/Versuch2Plot2horizontal2.pdf>]
-<IMAGE/Versuch2Plot2_all.pdf, id=174, 1077.54572pt x 648.26193pt>
+ [10 <./IMAGE/Versuch2Plot2horizontal2.pdf>]
+<IMAGE/Versuch2Plot2_all.pdf, id=179, 1077.54572pt x 648.26193pt>
 File: IMAGE/Versuch2Plot2_all.pdf Graphic file (type pdf)
 <use IMAGE/Versuch2Plot2_all.pdf>
-Package pdftex.def Info: IMAGE/Versuch2Plot2_all.pdf  used on input line 171.
+Package pdftex.def Info: IMAGE/Versuch2Plot2_all.pdf  used on input line 190.
 (pdftex.def)             Requested size: 434.55125pt x 261.42688pt.
-File: IMAGE/luh_logo.png Graphic file (type png)
-<use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 175.
-(pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [10 <./IMAGE/Versuch2Plot2vertikal2.pdf>]
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
 Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 194.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [11 <./IMAGE/Versuch2Plot2_all.pdf>]
-<IMAGE/both-2-450-5-1-c.png, id=209, 963.6pt x 481.8pt>
+ [11 <./IMAGE/Versuch2Plot2vertikal2.pdf>]
+File: IMAGE/luh_logo.png Graphic file (type png)
+<use IMAGE/luh_logo.png>
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 213.
+(pdftex.def)             Requested size: 45.07687pt x 13.0pt.
+ [12 <./IMAGE/Versuch2Plot2_all.pdf>]
+<IMAGE/both-2-450-5-1-c.png, id=215, 963.6pt x 481.8pt>
 File: IMAGE/both-2-450-5-1-c.png Graphic file (type png)
 <use IMAGE/both-2-450-5-1-c.png>
-Package pdftex.def Info: IMAGE/both-2-450-5-1-c.png  used on input line 206.
+Package pdftex.def Info: IMAGE/both-2-450-5-1-c.png  used on input line 225.
 (pdftex.def)             Requested size: 434.55125pt x 217.27115pt.
-<IMAGE/2-pht-c.png, id=211, 963.6pt x 481.8pt>
+<IMAGE/2-pht-c.png, id=217, 963.6pt x 481.8pt>
 File: IMAGE/2-pht-c.png Graphic file (type png)
 <use IMAGE/2-pht-c.png>
-Package pdftex.def Info: IMAGE/2-pht-c.png  used on input line 218.
+Package pdftex.def Info: IMAGE/2-pht-c.png  used on input line 237.
 (pdftex.def)             Requested size: 434.55125pt x 217.27115pt.
 
-Overfull \hbox (11.74988pt too wide) in paragraph at lines 213--223
+Overfull \hbox (11.74988pt too wide) in paragraph at lines 232--242
 []$[]$ 
  []
 
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 224.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 243.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
-[12 <./IMAGE/both-2-450-5-1-c.png (PNG copy)>]
-<IMAGE/2-pmt-c.png, id=219, 963.6pt x 481.8pt>
+[13 <./IMAGE/both-2-450-5-1-c.png (PNG copy)>]
+<IMAGE/2-pmt-c.png, id=224, 963.6pt x 481.8pt>
 File: IMAGE/2-pmt-c.png Graphic file (type png)
 <use IMAGE/2-pmt-c.png>
-Package pdftex.def Info: IMAGE/2-pmt-c.png  used on input line 228.
+Package pdftex.def Info: IMAGE/2-pmt-c.png  used on input line 247.
 (pdftex.def)             Requested size: 434.55125pt x 217.27115pt.
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 234.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 253.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [13 <./IMAGE/2-pht-c.png (PNG copy)>]
-<IMAGE/3dtomo.png, id=227, 210.3057pt x 193.9245pt>
+ [14 <./IMAGE/2-pht-c.png (PNG copy)>]
+<IMAGE/3dtomo.png, id=232, 210.3057pt x 193.9245pt>
 File: IMAGE/3dtomo.png Graphic file (type png)
 <use IMAGE/3dtomo.png>
-Package pdftex.def Info: IMAGE/3dtomo.png  used on input line 239.
+Package pdftex.def Info: IMAGE/3dtomo.png  used on input line 258.
 (pdftex.def)             Requested size: 434.55125pt x 400.74649pt.
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 243.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 262.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [14 <./IMAGE/2-pmt-c.png (PNG copy)>]
+ [15 <./IMAGE/2-pmt-c.png (PNG copy)>]
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 252.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 271.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [15 <./IMAGE/3dtomo.png>]
+ [16 <./IMAGE/3dtomo.png>]
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 284.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 303.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [16]
+ [17]
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 284.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 303.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
 
-[17] (./main.lof
-Overfull \hbox (48.52444pt too wide) in paragraph at lines 3--3
- [][] [][][]\OT1/cmr/m/n/12 Schema ei-nes scan-nen-den la-se-r-opti-schen To-mo
--gra-phen (SLOT) [[]].[]Ausf[]uhrlicher, 
- []
+[18] (./main.lof
+File: IMAGE/luh_logo.png Graphic file (type png)
+<use IMAGE/luh_logo.png>
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 16.
+(pdftex.def)             Requested size: 45.07687pt x 13.0pt.
+ [19
 
-
+]
 Overfull \hbox (1.15561pt too wide) in paragraph at lines 16--16
  [][] [][][]\OT1/cmr/m/n/12 3-dimensionale An-sicht ei-ner PMT-Aufnahme: $\OML/
 cmm/m/it/12 ^^U \OT1/cmr/m/n/12 = 520[][]$ mit $\OML/cmm/m/it/12 ^^U[] \OT1/cmr
@@ -1301,39 +1292,32 @@ cmm/m/it/12 ^^U \OT1/cmr/m/n/12 = 520[][]$ mit $\OML/cmm/m/it/12 ^^U[] \OT1/cmr
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
 File: IMAGE/luh_logo.png Graphic file (type png)
 <use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 292.
+Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 316.
 (pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [18
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
-File: IMAGE/luh_logo.png Graphic file (type png)
-<use IMAGE/luh_logo.png>
-Package pdftex.def Info: IMAGE/luh_logo.png  used on input line 297.
-(pdftex.def)             Requested size: 45.07687pt x 13.0pt.
- [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 25902 strings out of 492616
- 509873 string characters out of 6135177
- 694263 words of memory out of 5000000
+ 25903 strings out of 492616
+ 509880 string characters out of 6135177
+ 693263 words of memory out of 5000000
  29531 multiletter control sequences out of 15000+600000
  549265 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,24n,84p,9104b,995s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,24n,95p,9104b,1039s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publ
@@ -1347,10 +1331,10 @@ fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/cm-super/sfrm1200.pfb>
-Output written on main.pdf (20 pages, 2790729 bytes).
+Output written on main.pdf (21 pages, 2792881 bytes).
 PDF statistics:
- 415 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 423 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 59 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
