@@ -235,7 +235,7 @@ Da bei dieser Aufnahme jedoch ein unpassender Filter verwendetet wurde, zeigt da
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{IMAGE/both-2-450-5-1-c.png}
-\caption{Rekonstruktion: Photodiode links, PMT rechts; $\lambda = 450 \text{ } \si{nm}$, $\Delta{t} = 2 \text{ } \si{s}$, $\lambda_\text{Filter} = (520 \pm 36) \text{ } \si{nm}$, $d_\text{Strahl} = 5 \text{ } \si{mm}$, Kontrast angepasst}
+\caption{Rekonstruktion: Photodiode links, PMT (Kontrast invertiert) rechts; $\lambda = 450 \text{ } \si{nm}$, $\Delta{t} = 2 \text{ } \si{s}$, $\lambda_\text{Filter} = (520 \pm 36) \text{ } \si{nm}$, $d_\text{Strahl} = 5 \text{ } \si{mm}$, Kontrast angepasst}
 	\label{fig:lang-int}
 \end{figure}
 
@@ -259,7 +259,7 @@ In Abbildung \ref{fig:both-pmt} wurden Bilder des PMT vom jeweiligen Fluoreszenz
 \includegraphics[width=\linewidth]{IMAGE/2-pmt-c.png}
 \caption{Rekonstruktion: $\lambda = 520 \text{ } \si{nm}$ mit $\lambda_\text{Filter} = (676 \pm 29) \text{ } \si{nm}$ links,\\
 	$\lambda = 450 \text{ } \si{nm}$ mit $\lambda_\text{Filter} \ge 570 \text{ } \si{nm}$ rechts; PMT, $\Delta{t} = 1 \text{ } \si{s}$,\\
-$d_\text{Strahl} = 5 \text{ } \si{mm}$, Kontrast angepasst}
+$d_\text{Strahl} = 5 \text{ } \si{mm}$, Kontrast angepasst und invertiert}
 	\label{fig:both-pmt}
 \end{figure}
 
@@ -272,24 +272,6 @@ Mit dem ImageJ-Plugin \glqq Volume Viewer\grqq{} , ist es nach der Rekonstruktio
 	\label{fig:3d}
 \end{figure}
 
-
-\subsubsection{Schwiereigkeiten bei der Versuchsdurchführung}
-Zum Einen haben wir zum Einfädeln der Laser in eine Glasfaser das Verfahren Beamwalk benutzt. Da dies aber sehr lange gedauert hat haben wir es darum ergänzt, dass man beim korrigieren der Spiegel immer ein bisschen weiter dreht als das Maximum der Intensität.
-Das haben wir gemacht, da der normale Beamwalk das absolute Maximum nur nach unendlich vielen Schritten erreicht.
-Wenn man aber die Schritte über das Maximum hinaus macht, dann kommt man schneller zum Maximum, kann es jedoch je nach Schrittgröße nicht erreichen, da man es überspringt.
-Ab diesem Punkt führt man wieder den normalen Beamwalk durch.
-
-Man kann unser Verfahren vergleichen mit einer alternierenden Reihe, die schneller konvergiert, als wenn man den Betrag der Reihenglieder betrachten würde.
-
-Eine weitere Schwierigkeit ist bei den Messungen mit sich drehender Probe aufgetreten.
-Man musste die Drehachse genau senkrecht positionieren, damit sie nicht präzessiert.
-Dies konnten wir durch unsere Justage und die limitierte Genauigkeit der direkten Bildanzeige nicht ganz verhindern.
-In der Auswertung konnten wir dann leider auch nur die mittlere Schieflage korrigieren.
-
-In der Theorie sollte jedoch auch eine Korrektur der Präzession nach der Aufnahme noch möglich sein.
-Dazu müsste man jedes Bild einer 360°-Aufnahme um den richtigen Betrag drehen, den man mit einem Sinus berechnen könnte, wenn man die maximale Abweichung während der Präzession kennt.
-
-In unserem Fall wanderte die Achse circa 4 Pixel in horizontaler Richtung, was für unser Ergebnis noch in Ordnung war.
 
 \subsubsection{Analyse}
 Wie erwartet lassen sich in den Aufnahmen mit dem PMT die inneren Strukturen besser erkennen, da hier die Fluoreszenz aufgenommen wurde.
@@ -306,10 +288,29 @@ Insgesamt sind wir mit den Ergebnissen unserer Messung zufrieden.
 \textcolor{red}{Text!}
 
 \section{Fazit}
-\textcolor{red}{Text!}
+\subsection{Schwierigkeiten bei der Versuchsdurchführung}
+Zum Einen haben wir zum Einfädeln der Laser in eine Glasfaser das Verfahren Beamwalk benutzt. Da dies aber sehr lange gedauert hat haben wir es darum ergänzt, dass man beim korrigieren der Spiegel immer ein bisschen weiter dreht als das Maximum der Intensität.
+Das haben wir gemacht, da der normale Beamwalk das absolute Maximum nur nach unendlich vielen Schritten erreicht.
+Wenn man aber die Schritte über das Maximum hinaus macht, dann kommt man schneller zum Maximum, kann es jedoch je nach Schrittgröße nicht erreichen, da man es überspringt.
+Ab diesem Punkt führt man wieder den normalen Beamwalk durch.
+
+Man kann unser Verfahren vergleichen mit einer alternierenden Reihe, die schneller konvergiert, als wenn man den Betrag der Reihenglieder betrachten würde.
+
+Eine weitere Schwierigkeit ist bei den Messungen mit sich drehender Probe aufgetreten.
+Man musste die Drehachse genau senkrecht positionieren, damit sie nicht präzessiert.
+Dies konnten wir durch unsere Justage und die limitierte Genauigkeit der direkten Bildanzeige nicht ganz verhindern.
+In der Auswertung konnten wir dann leider auch nur die mittlere Schieflage korrigieren.
+
+In der Theorie sollte jedoch auch eine Korrektur der Präzession nach der Aufnahme noch möglich sein.
+
+In unserem Fall wanderte die Achse circa 4 Pixel in horizontaler Richtung, was für unser Ergebnis noch in Ordnung war.
 
 \section{Ausblick}
 \textcolor{red}{Text!}
+\subsection{Korrektur der Präzession}
+Auf die Schwierigkeiten mit der Präzession wurden wir nicht durch die Versuchsanleitung \cite{Anleitung} vorbereitet, was in Ordnung wäre, wenn man durch die Programmsammlung IMOD die Möglichkeit hätte die Präzession mit Hilfe von Software zu korrigieren.
+Dazu müsste man jedes Bild einer 360°-Aufnahme um den richtigen Betrag drehen, den man mit einem Sinus berechnen könnte, wenn man die maximale Abweichung während der Präzession kennt.
+Der Sinus tritt hier auf, da sich die Probe mit konstanter Winkelgeschwindigkeit dreht.
 
 %\listoftables
 \clearpage
