@@ -10,8 +10,7 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Korrektur der Schieflage}{13}{subsubsection.23}% 
 \contentsline {subsubsection}{\numberline {3.2.2}Darstellung der Rekonstruktion}{13}{subsubsection.24}% 
 \contentsline {subsubsection}{\numberline {3.2.3}Analyse}{16}{subsubsection.29}% 
-\contentsline {section}{\numberline {4}Diskussion}{17}{section.30}% 
-\contentsline {section}{\numberline {5}Fazit}{17}{section.31}% 
-\contentsline {subsection}{\numberline {5.1}Schwierigkeiten bei der Versuchsdurchf\IeC {\"u}hrung}{17}{subsection.32}% 
-\contentsline {section}{\numberline {6}Ausblick}{17}{section.33}% 
-\contentsline {subsection}{\numberline {6.1}Korrektur der Pr\IeC {\"a}zession}{18}{subsection.34}% 
+\contentsline {section}{\numberline {4}Fazit}{17}{section.30}% 
+\contentsline {subsection}{\numberline {4.1}Schwierigkeiten bei der Versuchsdurchf\IeC {\"u}hrung}{17}{subsection.31}% 
+\contentsline {section}{\numberline {5}Ausblick}{17}{section.32}% 
+\contentsline {subsection}{\numberline {5.1}Korrektur der Pr\IeC {\"a}zession}{17}{subsection.33}% 
