@@ -4,14 +4,13 @@
 \contentsline {subsection}{\numberline {2.1}Radontransformation}{2}{subsection.4}% 
 \contentsline {subsection}{\numberline {2.2}Funktionsweise}{3}{subsection.8}% 
 \contentsline {subsection}{\numberline {2.3}Versuchsaufbau}{5}{subsection.10}% 
-\contentsline {section}{\numberline {3}Ergebnisse}{9}{section.15}% 
-\contentsline {subsection}{\numberline {3.1}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{9}{subsection.16}% 
-\contentsline {subsection}{\numberline {3.2}Aufnahmen von Heuschreckengehirnen}{13}{subsection.22}% 
+\contentsline {section}{\numberline {3}Ergebnisse}{8}{section.15}% 
+\contentsline {subsection}{\numberline {3.1}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{8}{subsection.16}% 
+\contentsline {subsection}{\numberline {3.2}Aufnahmen von Heuschreckengehirnen}{12}{subsection.22}% 
 \contentsline {subsubsection}{\numberline {3.2.1}Korrektur der Schieflage}{13}{subsubsection.23}% 
-\contentsline {subsubsection}{\numberline {3.2.2}Darstellung der Rekonstruktion}{14}{subsubsection.24}% 
-\contentsline {subsubsection}{\numberline {3.2.3}Analyse}{17}{subsubsection.29}% 
-\contentsline {section}{\numberline {4}Diskussion}{18}{section.30}% 
-\contentsline {section}{\numberline {5}Fazit}{18}{section.31}% 
-\contentsline {subsection}{\numberline {5.1}Schwierigkeiten bei der Versuchsdurchf\IeC {\"u}hrung}{18}{subsection.32}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Darstellung der Rekonstruktion}{13}{subsubsection.24}% 
+\contentsline {subsubsection}{\numberline {3.2.3}Schwiereigkeiten bei der Versuchsdurchf\IeC {\"u}hrung}{16}{subsubsection.29}% 
+\contentsline {subsubsection}{\numberline {3.2.4}Analyse}{17}{subsubsection.30}% 
+\contentsline {section}{\numberline {4}Diskussion}{17}{section.31}% 
+\contentsline {section}{\numberline {5}Fazit}{17}{section.32}% 
 \contentsline {section}{\numberline {6}Ausblick}{18}{section.33}% 
-\contentsline {subsection}{\numberline {6.1}Korrektur der Pr\IeC {\"a}zession}{19}{subsection.34}% 

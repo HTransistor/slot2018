@@ -136,7 +136,7 @@ Dieses Fluoreszenzlicht wird mittels plankovexen Linsen mit dazwischen liegendem
 %%%%%%%%%%%%%%%
 \clearpage
 
-\begin{minipage}{\linewidth}
+%\begin{minipage}{\linewidth}
 \begin{figure}[H]
 	\centering
 \includegraphics[width=0.491\linewidth]{IMAGE/turm.png}
@@ -150,57 +150,64 @@ In der Probenkammer wird dann eine Küvette mit Glycerin aus oben genannten Grü
 \section{Ergebnisse}
 \subsection{Auflösungsvermögen}
 Der Kontrast wurde für verschiedene Fokussierungen, Strahlendurchmesser und Wellenlängen des Lasers mithilfe eines USAF-Targets gemessen. Dadurch ergibt sich die Modulationsübertragungsfunktion.\\ 
- \textcolor{red}{Nicht Auflösung sondern lp/mm.}
+%DONE: \textcolor{red}{Nicht Auflösung sondern lp/mm.}
 Bei allen Messungen wurde die Dunkelaufnahme von der Abbildung des Targets abgezogen, um ein Rauschen herauszurechnen.\\
-Für geringe Auflösung wurde die Modulationsübertragungsfunktion  in Abhängikeit zur horizontalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2h1} und zur vertikalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2v1} dargestellt.\\
-\end{minipage}
+	Für geringe Linienpaare pro Millimeter $\left( \frac{lp}{mm} \right)$ wurde die Modulationsübertragungsfunktion  in Abhängikeit zu $\frac{lp}{mm}$ in horizontaler Scannrichtung in Abbildung \ref{fig:Versuch2_Plot2h1} und zu $\frac{lp}{mm}$ in vertikaler Scannrichtung in Abbildung \ref{fig:Versuch2_Plot2v1} dargestellt.\\
+%\end{minipage}
 
-\begin{minipage}{\linewidth}
+%\begin{minipage}{\linewidth}
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1.0\linewidth]{IMAGE/Versuch2Plot1horizontal2.pdf}
-	\caption{Kontrast bei geringer Auflösung (horizontal) \textcolor{red}{Ausführlicher. Was ist III?}}
+	\caption{Kontrast bei niedrigen $\frac{lp}{mm}$ in horizontaler Scanrichtung, wobei in der Legende \glqq III \grqq{} die Ausrichtung der Dunkellinien des USAF-Targets sind, woraus sich die Scanrichtung als horizontal erschließt.
+	%DONE: \textcolor{red}{Ausführlicher. Was ist III?}
+	}
 	\label{fig:Versuch2_Plot2h1}
 \end{figure} 
 
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1.0\linewidth]{IMAGE/Versuch2Plot1vertikal2.pdf}
-	\caption{Kontrast bei geringer Auflösung (vertikal)}
+	\caption{Kontrast bei niedrigen $\frac{lp}{mm}$ in vertikaler Scanrichtung.}
+	%DONE:ontrast bei geringer Auflösung (vertikal)}
 	\label{fig:Versuch2_Plot2v1}
 \end{figure} 
 
-\end{minipage}
+%\end{minipage}
 
-\begin{minipage}{\linewidth}
+%\begin{minipage}{\linewidth}
 Ein erhöhter Strahlendurchmesser verbessert den Kontrast.\\
-Bei geringer Auflösung ist der Kontrast für eine höhere Wellenlänge höher.\\
+Bei niedrigen $\frac{lp}{mm}$ ist der Kontrast für eine höhere Wellenlänge höher.\\
 Der Kontrast ist in horizontaler und vertikaler Richtung von vergleichbarer Höhe.\\
 Weiterhin sinkt der Kontrast rapide, falls ohne Fokussierung gemessen wird.
 
-Für hohe Auflösung ist diese zur horizontalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2h2} und zur vertikalen Auflösung in Abbildung \ref{fig:Versuch2_Plot2v2} dargestellt.
+Für hohe $\frac{lp}{mm}$ ist der Kontrast für horizontale Scanrichtung in Abbildung \ref{fig:Versuch2_Plot2h2} und für vertikale Scanrichtung in Abbildung \ref{fig:Versuch2_Plot2v2} dargestellt.
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1.0\linewidth]{IMAGE/Versuch2Plot2horizontal2.pdf}
-	\caption{Kontrast bei hoher Auflösung (horizontal)}
+	\caption{Kontrast bei hohen $\frac{lp}{mm}$ in horizontaler Scanrichtung.}
 	\label{fig:Versuch2_Plot2h2}
 \end{figure} 
-\end{minipage}
+%\end{minipage}
 
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1.0\linewidth]{IMAGE/Versuch2Plot2vertikal2.pdf}
-	\caption{Kontrast bei hoher Auflösung (vertikal)}
+	\caption{Kontrast bei hohen $\frac{lp}{mm}$ in vertikaler Scanrichtung.}
 	\label{fig:Versuch2_Plot2v2}
 \end{figure} 
-Auch bei hoher Auflösung verbessert ein erhöhter Strahlendurchmesser  den Kontrast. Zwar ist der Kontrast bei einer geringen Auflösung bei einer höheren Wellenlänge höher, aber ab etwa einer Auflösung von $20 \frac{lp}{mm}$ erhöht eine kleine Wellenlänge den Kontrast.
+Auch bei hohen $\frac{lp}{mm}$ verbessert ein erhöhter Strahlendurchmesser  den Kontrast. Zwar ist der Kontrast bei niedrigen $\frac{lp}{mm}$ bei einer höheren Wellenlänge höher, aber ab etwa $20 \frac{lp}{mm}$ erhöht eine kleine Wellenlänge den Kontrast.
 
-Weiterhin sind die Modulationsübertragungsfunktionen für hohe Auflösungen in Abbildung \ref{fig:Versuch2_Plot2_all} dargestellt, um diese untereinander besser vergleichen zu können.
+Weiterhin sind die Modulationsübertragungsfunktionen für hohe $\frac{lp}{mm}$ für horizontale und vertikale Scanrichtung gemeinsam in Abbildung \ref{fig:Versuch2_Plot2_all} dargestellt, um diese untereinander besser vergleichen zu können.
+Dabei ist zu erkennen, dass für den größten Durchmesser $\varnothing = 5 \, mm$ die kürzeste Wellenlänge $\lambda = 450 \, nm$ den besten Kontrast liefert. Weiterhin ist der Kontrast für die vertikale Scanrichtung höher (blau) als in horizontale Scanrichtung (gelb).
+Außerdem ist dies auch beim Vergleich bei festem Durchmesser $\varnothing = 2 \, mm$ bei $\lambda = 450 \, nm$ zwischen vertikaler Scanrichtung (grün) und horizontaler Scanrichtung (lila) erkennen. 
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=1.0\linewidth]{IMAGE/Versuch2Plot2_all.pdf}
-	\caption{Kontrast bei hoher Auflösung (horizontal \& vertikal) \textcolor{red}{Ausführlicher. Wozu vertikal, horizontal Vergleich?}}
+	\caption{Kontrast bei hohen $\frac{lp}{mm}$ in vertikaler und horizontaler Scanrichtung für einen besseren Vergleich untereinander.
+	%\textcolor{red}{Ausführlicher. Wozu vertikal, horizontal Vergleich?}
+	}
 	\label{fig:Versuch2_Plot2_all}
 \end{figure}
 
@@ -252,7 +259,7 @@ Es ist erkennbar, dass das Bild mit der längeren Wellenlänge feinere Strukture
 \end{figure}
 \end{minipage}
 
-In Abbildung \ref{fig:both-pmt} wurden Bilder des PMT vom jeweiligen Fluoreszenzlicht der Laser rekonstruiert. Im Vergleich ist festzustellen, dass bei $\lambda= 520 \text{ } \si{nm}$ die Auflösung höher ist.
+In Abbildung \ref{fig:both-pmt} wurden Bilder des PMT vom jeweiligen Fluoreszenzlicht der Laser rekonstruiert. Im Vergleich ist festzustellen, dass bei $\lambda= 520 \text{ } \si{nm}$ die $\frac{lp}{mm}$ höher ist.
 
 \begin{figure}[H]
 \centering
